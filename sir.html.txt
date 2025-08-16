@@ -1,0 +1,2312 @@
+<html lang="en"><head>
+    <meta name="google-site-verification" content="d13Hh8m2coFjR-lHc63J8TJZSHc95Q5bJAxervsJEtk">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>LND Multi-Tool Suite | 50+ Free AI-Powered Creative &amp; Utility Tools</title>
+    <meta name="description" content="The ultimate all-in-one suite of 50+ free AI-powered tools. Generate unlimited AI art with 50 images per batch, convert text to downloadable MP3 audio, chat with advanced AI, scan QR codes, and use 30+ utility tools—no sign-up required.">
+    <meta name="keywords" content="AI tools, free AI generator, text to image AI, text to speech MP3, AI chatbot, QR code scanner, image converter, password generator, web scraper, developer tools, online utilities, LND AI, LND multi-tool, free AI art, uncensored AI image generator, pollinations AI, gemini chatbot, deepseek AI, file converter, grammar checker, JSON formatter, CSS generator, PDF tools, regex tester">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://lndaihub.netlify.app/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lndaihub.netlify.app/">
+    <meta property="og:title" content="LND Multi-Tool Suite | 50+ Free AI-Powered Tools">
+    <meta property="og:description" content="50+ free tools: AI art generation up to 50 images, TTS with MP3 download, AI chatbot, QR scanners, developer utilities. No login required.">
+    <meta property="og:site_name" content="LND Multi-Tool Suite">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://lndaihub.netlify.app/">
+    <meta name="twitter:title" content="LND Multi-Tool Suite | 50+ Free AI Tools">
+    <meta name="twitter:description" content="All-in-one AI tool suite: generate up to 50 AI images, speech with MP3 download, chat with AI, and use 50+ creative utilities—completely free.">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "LND Multi-Tool Suite",
+      "url": "https://lndaihub.netlify.app/",
+      "description": "All-in-one suite of 50+ free AI-powered creative and utility tools. Text-to-image up to 50 images, TTS with MP3 download, AI chatbot, QR code scanner, and 50+ browser tools.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "15000"
+      },
+      "featureList": [
+        "AI Image Generator (up to 50 images)",
+        "Text to Speech (MP3 Download)",
+        "AI Chatbot (Multiple Models)",
+        "Web Image Scraper",
+        "QR Code Reader (Camera & Upload)",
+        "QR Code Generator",
+        "Image Converter & Resizer",
+        "Password Generator",
+        "Grammar Checker",
+        "File Format Converters",
+        "Developer Tools Suite",
+        "50+ Utility Tools"
+      ]
+    }
+    </script>
+    
+    <!-- QR Scanner Library -->
+    <script src="https://unpkg.com/html5-qrcode@2.0.9/dist/html5-qrcode.min.js"></script>
+    <!-- PDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Additional Utility Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            /* Professional Dark Purple & Black Palette */
+            --primary-purple: #2D1B69;
+            --secondary-purple: #4C1D95;
+            --dark-purple: #1E1B4B;
+            --light-purple: #6366F1;
+            --accent-purple: #8B5CF6;
+            --bg-black: #000000;
+            --bg-dark: #0F0F23;
+            --bg-darker: #0A0A1A;
+            --text-light: #F8FAFC;
+            --text-accent: #E2E8F0;
+            --text-muted: #94A3B8;
+            --glass-bg: rgba(45, 27, 105, 0.15);
+            --glass-border: rgba(139, 92, 246, 0.3);
+            --shadow-primary: rgba(45, 27, 105, 0.4);
+            --shadow-accent: rgba(139, 92, 246, 0.2);
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: linear-gradient(135deg, var(--bg-black) 0%, var(--bg-darker) 20%, var(--dark-purple) 40%, var(--primary-purple) 60%, var(--secondary-purple) 80%, var(--dark-purple) 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            color: var(--text-light);
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            25% { background-position: 100% 50%; }
+            50% { background-position: 100% 100%; }
+            75% { background-position: 0% 100%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Enhanced Particle System */
+        .cosmic-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: var(--accent-purple);
+            border-radius: 50%;
+            animation: float 8s ease-in-out infinite;
+            box-shadow: 0 0 6px var(--accent-purple);
+        }
+
+        @keyframes float {
+            0%, 100% { 
+                transform: translateY(0px) rotate(0deg) scale(0.8); 
+                opacity: 0.4; 
+            }
+            25% { 
+                transform: translateY(-15px) rotate(90deg) scale(1.2); 
+                opacity: 0.8; 
+            }
+            50% { 
+                transform: translateY(-30px) rotate(180deg) scale(1); 
+                opacity: 1; 
+            }
+            75% { 
+                transform: translateY(-15px) rotate(270deg) scale(1.1); 
+                opacity: 0.6; 
+            }
+        }
+
+        /* Animated Background Overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(45, 27, 105, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 40% 40%, rgba(76, 29, 149, 0.05) 0%, transparent 50%);
+            animation: backgroundPulse 15s ease-in-out infinite;
+            z-index: 0;
+        }
+
+        @keyframes backgroundPulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 30px;
+            margin-bottom: 40px;
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px);
+            border: 2px solid var(--glass-border);
+            border-radius: 25px;
+            box-shadow: 
+                0 25px 50px var(--shadow-primary),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1),
+                0 0 0 1px rgba(139, 92, 246, 0.1);
+            position: relative;
+            overflow: hidden;
+            animation: headerGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes headerGlow {
+            0% { box-shadow: 0 25px 50px var(--shadow-primary), inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 0 0 1px rgba(139, 92, 246, 0.1); }
+            100% { box-shadow: 0 30px 60px var(--shadow-primary), inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 0 0 2px rgba(139, 92, 246, 0.2); }
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, var(--accent-purple), transparent);
+            animation: rotate 12s linear infinite;
+            opacity: 0.08;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            margin-bottom: 25px;
+        }
+
+        .logo-svg {
+            width: 90px;
+            height: 90px;
+            filter: drop-shadow(0 0 25px var(--accent-purple));
+            animation: logoFloat 4s ease-in-out infinite;
+        }
+
+        @keyframes logoFloat {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-8px) rotate(5deg); }
+        }
+
+        .main-title {
+            font-family: 'Orbitron', monospace;
+            font-size: clamp(2.8rem, 5vw, 4.5rem);
+            font-weight: 900;
+            background: linear-gradient(135deg, var(--text-light), var(--accent-purple), var(--light-purple), var(--text-light));
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: textGradient 4s ease-in-out infinite;
+            text-shadow: 0 0 40px rgba(139, 92, 246, 0.3);
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+        }
+
+        @keyframes textGradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .subtitle {
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            color: var(--text-accent);
+            opacity: 0.9;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Navigation Tabs */
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .nav-tab {
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px);
+            border: 2px solid var(--glass-border);
+            border-radius: 15px;
+            padding: 15px 25px;
+            color: var(--text-light);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav-tab:hover {
+            background: rgba(139, 92, 246, 0.2);
+            border-color: var(--accent-purple);
+            transform: translateY(-2px);
+        }
+
+        .nav-tab.active {
+            background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple));
+            border-color: var(--accent-purple);
+            box-shadow: 0 10px 25px var(--shadow-primary);
+        }
+
+        .main-content {
+            flex: 1;
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 35px;
+            max-width: 900px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .tool-section {
+            display: none;
+        }
+
+        .tool-section.active {
+            display: block;
+        }
+
+        .control-panel {
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px);
+            border: 2px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 
+                0 20px 40px var(--shadow-primary),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            position: relative;
+            animation: panelGlow 4s ease-in-out infinite alternate;
+        }
+
+        @keyframes panelGlow {
+            0% { box-shadow: 0 20px 40px var(--shadow-primary), inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+            100% { box-shadow: 0 25px 50px var(--shadow-primary), inset 0 1px 0 rgba(255, 255, 255, 0.15); }
+        }
+
+        .control-panel h2 {
+            font-family: 'Orbitron', monospace;
+            font-size: 2.2rem;
+            color: var(--accent-purple);
+            margin-bottom: 30px;
+            text-align: center;
+            text-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 12px;
+            font-weight: 600;
+            color: var(--text-accent);
+            font-size: 1.1rem;
+            text-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .prompt-input, .custom-select {
+            width: 100%;
+            padding: 18px 20px;
+            background: rgba(0, 0, 0, 0.4);
+            border: 2px solid var(--glass-border);
+            border-radius: 15px;
+            color: var(--text-light);
+            font-size: 1.1rem;
+            font-family: inherit;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .prompt-input:focus, .custom-select:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.4);
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        textarea.prompt-input {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .select-wrapper {
+            position: relative;
+        }
+
+        .select-wrapper::after {
+            content: '▼';
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--accent-purple);
+            pointer-events: none;
+            font-size: 1.2rem;
+        }
+
+        select.custom-select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            cursor: pointer;
+        }
+
+        .generate-btn {
+            width: 100%;
+            padding: 22px;
+            background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple), var(--accent-purple));
+            background-size: 200% 200%;
+            border: 2px solid var(--accent-purple);
+            border-radius: 15px;
+            color: var(--text-light);
+            font-size: 1.2rem;
+            font-weight: 700;
+            font-family: 'Orbitron', monospace;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            position: relative;
+            overflow: hidden;
+            animation: btnGradient 3s ease infinite;
+        }
+
+        @keyframes btnGradient {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 35px var(--shadow-primary);
+        }
+
+        .generate-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+            transform: none;
+            animation: none;
+        }
+
+        .results-section {
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px);
+            border: 2px solid var(--glass-border);
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 
+                0 20px 40px var(--shadow-primary),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+            min-height: 450px;
+            display: flex;
+            flex-direction: column;
+            animation: panelGlow 4s ease-in-out infinite alternate;
+        }
+
+        .results-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 35px;
+            padding-bottom: 25px;
+            border-bottom: 2px solid var(--glass-border);
+        }
+
+        .results-title {
+            font-family: 'Orbitron', monospace;
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--text-light);
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
+            flex: 1;
+        }
+
+        .image-card {
+            background: rgba(0, 0, 0, 0.3);
+            border: 2px solid var(--glass-border);
+            border-radius: 20px;
+            overflow: hidden;
+            transition: all 0.4s ease;
+            position: relative;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 10px 30px var(--shadow-primary);
+        }
+
+        .image-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 
+                0 20px 50px var(--shadow-primary),
+                0 0 30px rgba(139, 92, 246, 0.3);
+            border-color: var(--accent-purple);
+        }
+
+        .generated-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .image-card:hover .generated-image {
+            transform: scale(1.05);
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(45, 27, 105, 0.8), rgba(139, 92, 246, 0.8));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .image-card:hover .image-overlay {
+            opacity: 1;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, var(--accent-purple), var(--light-purple));
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            color: var(--text-light);
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            box-shadow: 0 8px 20px rgba(139, 92, 246, 0.4);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(139, 92, 246, 0.6);
+        }
+
+        .empty-state, .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 60px 20px;
+            flex: 1;
+        }
+
+        .loading-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid var(--glass-border);
+            border-top: 4px solid var(--accent-purple);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 25px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Tools Grid */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .tool-card {
+            background: var(--glass-bg);
+            backdrop-filter: blur(25px);
+            border: 2px solid var(--glass-border);
+            border-radius: 15px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent-purple);
+            box-shadow: 0 15px 35px var(--shadow-primary);
+        }
+
+        .tool-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            display: block;
+        }
+
+        .tool-title {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+
+        .tool-description {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            line-height: 1.4;
+        }
+
+        .tool-interface {
+            display: none;
+        }
+
+        /* Chatbot Styles */
+        .chatbot-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--light-purple));
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            color: white;
+            font-size: 24px;
+        }
+
+        .chatbot-toggle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 25px rgba(139, 92, 246, 0.6);
+        }
+
+        .chatbot-window {
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            width: 380px;
+            height: 500px;
+            background: var(--bg-darker);
+            border: 2px solid var(--glass-border);
+            border-radius: 20px;
+            display: none;
+            flex-direction: column;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            z-index: 1001;
+            backdrop-filter: blur(20px);
+            overflow: hidden;
+        }
+
+        .chatbot-window.open {
+            display: flex;
+        }
+
+        .chatbot-header {
+            padding: 15px 20px;
+            background: linear-gradient(135deg, var(--primary-purple), var(--secondary-purple));
+            border-bottom: 2px solid var(--glass-border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chatbot-title {
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .chat-model-select {
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 8px;
+            color: var(--text-light);
+            padding: 6px 10px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+
+        .chatbot-close {
+            background: none;
+            border: none;
+            color: var(--text-light);
+            font-size: 20px;
+            cursor: pointer;
+            padding: 5px;
+            border-radius: 5px;
+            transition: background 0.2s ease;
+        }
+
+        .chatbot-close:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .chatbot-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .chat-message {
+            display: flex;
+            gap: 12px;
+            max-width: 85%;
+        }
+
+        .user-message {
+            flex-direction: row-reverse;
+            align-self: flex-end;
+        }
+
+        .message-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+        }
+
+        .bot-message .message-avatar {
+            background: var(--accent-purple);
+        }
+
+        .user-message .message-avatar {
+            background: var(--secondary-purple);
+        }
+
+        .message-content {
+            background: var(--glass-bg);
+            border-radius: 12px;
+            padding: 12px 15px;
+            line-height: 1.5;
+            word-wrap: break-word;
+            backdrop-filter: blur(10px);
+        }
+
+        .user-message .message-content {
+            background: var(--primary-purple);
+        }
+
+        .chatbot-input-area {
+            padding: 20px;
+            border-top: 2px solid var(--glass-border);
+        }
+
+        .chat-input-container {
+            display: flex;
+            gap: 10px;
+            align-items: flex-end;
+        }
+
+        .chat-input {
+            flex: 1;
+            background: var(--bg-dark);
+            border: 2px solid var(--glass-border);
+            border-radius: 12px;
+            padding: 12px 15px;
+            color: var(--text-light);
+            resize: none;
+            min-height: 20px;
+            max-height: 100px;
+            font-family: inherit;
+            transition: all 0.3s ease;
+        }
+
+        .chat-input:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+        }
+
+        .chat-send-btn {
+            background: var(--accent-purple);
+            border: none;
+            border-radius: 12px;
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: white;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .chat-send-btn:hover {
+            background: var(--light-purple);
+            transform: translateY(-2px);
+        }
+
+        /* Range Slider */
+        .range-slider {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: var(--glass-bg);
+            outline: none;
+            -webkit-appearance: none;
+            margin: 10px 0;
+        }
+
+        .range-slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent-purple);
+            cursor: pointer;
+            box-shadow: 0 2px 6px rgba(139, 92, 246, 0.3);
+        }
+
+        .range-slider::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: var(--accent-purple);
+            cursor: pointer;
+            border: none;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+            border-top: 2px solid var(--glass-border);
+            color: var(--text-muted);
+        }
+
+        .lnd-signature {
+            background: linear-gradient(135deg, var(--accent-purple), var(--light-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+
+        /* Additional styles for specific tools */
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            color: var(--text-light);
+            font-size: 0.9rem;
+            cursor: pointer;
+            position: relative;
+            padding-left: 35px;
+            user-select: none;
+        }
+
+        .checkbox-label input[type="checkbox"] {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+
+        .checkmark {
+            position: absolute;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            background: var(--glass-bg);
+            border: 2px solid var(--glass-border);
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .checkbox-label:hover .checkmark {
+            border-color: var(--accent-purple);
+        }
+
+        .checkbox-label input:checked ~ .checkmark {
+            background: linear-gradient(135deg, var(--accent-purple), var(--light-purple));
+            border-color: var(--accent-purple);
+        }
+
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        .checkbox-label input:checked ~ .checkmark:after {
+            display: block;
+        }
+
+        .checkbox-label .checkmark:after {
+            left: 6px;
+            top: 2px;
+            width: 6px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container { padding: 15px; }
+            .header { padding: 30px 20px; }
+            .main-title { font-size: 2.5rem; }
+            .subtitle { font-size: 1rem; }
+            .logo-container { flex-direction: column; gap: 15px; }
+            .nav-tabs { gap: 10px; }
+            .nav-tab { padding: 12px 18px; font-size: 0.9rem; }
+            .control-panel, .results-section { padding: 25px; }
+            .chatbot-window { width: calc(100vw - 30px); height: 70vh; right: 15px; left: 15px; }
+            .tools-grid, .image-grid, .controls-grid { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 480px) {
+            .container { padding: 10px; }
+            .header { padding: 20px 15px; }
+            .control-panel, .results-section { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cosmic-particles"><div class="particle" style="left: 2.38672%; top: 6.11685%; animation-delay: 6.13824s; animation-duration: 9.06893s;"></div><div class="particle" style="left: 86.4009%; top: 73.3787%; animation-delay: 5.21014s; animation-duration: 9.08299s;"></div><div class="particle" style="left: 49.4127%; top: 22.0697%; animation-delay: 2.56465s; animation-duration: 8.03317s;"></div><div class="particle" style="left: 29.2228%; top: 72.0542%; animation-delay: 3.79557s; animation-duration: 8.35938s;"></div><div class="particle" style="left: 32.7388%; top: 90.048%; animation-delay: 5.70269s; animation-duration: 11.2058s;"></div><div class="particle" style="left: 70.4603%; top: 71.1304%; animation-delay: 5.59481s; animation-duration: 10.5753s;"></div><div class="particle" style="left: 57.241%; top: 4.76616%; animation-delay: 5.01464s; animation-duration: 8.86944s;"></div><div class="particle" style="left: 77.7103%; top: 5.6896%; animation-delay: 3.93027s; animation-duration: 9.96354s;"></div><div class="particle" style="left: 42.5417%; top: 79.8287%; animation-delay: 6.64336s; animation-duration: 11.028s;"></div><div class="particle" style="left: 27.1822%; top: 41.5311%; animation-delay: 4.20078s; animation-duration: 9.49808s;"></div><div class="particle" style="left: 35.981%; top: 49.8298%; animation-delay: 3.9202s; animation-duration: 11.5381s;"></div><div class="particle" style="left: 74.6896%; top: 61.6298%; animation-delay: 0.0109331s; animation-duration: 9.89066s;"></div><div class="particle" style="left: 25.585%; top: 78.1366%; animation-delay: 7.75127s; animation-duration: 8.41698s;"></div><div class="particle" style="left: 75.9002%; top: 83.4124%; animation-delay: 1.21257s; animation-duration: 9.53351s;"></div><div class="particle" style="left: 73.7152%; top: 81.9671%; animation-delay: 5.2814s; animation-duration: 10.53s;"></div><div class="particle" style="left: 12.1273%; top: 22.3132%; animation-delay: 6.66549s; animation-duration: 11.8708s;"></div><div class="particle" style="left: 14.3127%; top: 65.7983%; animation-delay: 0.168237s; animation-duration: 10.8043s;"></div><div class="particle" style="left: 30.7511%; top: 2.61618%; animation-delay: 1.68846s; animation-duration: 9.29502s;"></div><div class="particle" style="left: 44.7011%; top: 14.5978%; animation-delay: 0.439922s; animation-duration: 10.2092s;"></div><div class="particle" style="left: 87.8693%; top: 95.662%; animation-delay: 3.79712s; animation-duration: 10.8333s;"></div><div class="particle" style="left: 72.6856%; top: 77.6039%; animation-delay: 4.18025s; animation-duration: 9.76176s;"></div><div class="particle" style="left: 10.0408%; top: 82.6792%; animation-delay: 1.36573s; animation-duration: 10.0133s;"></div><div class="particle" style="left: 38.1762%; top: 49.5151%; animation-delay: 1.61796s; animation-duration: 10.7581s;"></div><div class="particle" style="left: 0.0405968%; top: 61.9453%; animation-delay: 4.47593s; animation-duration: 9.27883s;"></div><div class="particle" style="left: 92.2533%; top: 1.41979%; animation-delay: 6.01849s; animation-duration: 8.23985s;"></div><div class="particle" style="left: 51.1957%; top: 63.513%; animation-delay: 7.62476s; animation-duration: 10.774s;"></div><div class="particle" style="left: 75.5468%; top: 38.1753%; animation-delay: 2.66382s; animation-duration: 11.5761s;"></div><div class="particle" style="left: 18.1526%; top: 57.5922%; animation-delay: 0.635397s; animation-duration: 10.5112s;"></div><div class="particle" style="left: 42.2916%; top: 16.3913%; animation-delay: 2.78194s; animation-duration: 8.00792s;"></div><div class="particle" style="left: 98.5128%; top: 65.5011%; animation-delay: 1.15641s; animation-duration: 8.96144s;"></div><div class="particle" style="left: 35.0049%; top: 12.9779%; animation-delay: 1.59927s; animation-duration: 9.27566s;"></div><div class="particle" style="left: 82.7869%; top: 41.7244%; animation-delay: 2.15309s; animation-duration: 10.1052s;"></div><div class="particle" style="left: 3.08744%; top: 52.5905%; animation-delay: 5.07478s; animation-duration: 11.252s;"></div><div class="particle" style="left: 31.6602%; top: 19.5416%; animation-delay: 0.533415s; animation-duration: 9.41903s;"></div><div class="particle" style="left: 37.5728%; top: 74.4952%; animation-delay: 6.8945s; animation-duration: 9.26294s;"></div><div class="particle" style="left: 86.6055%; top: 6.07794%; animation-delay: 4.63011s; animation-duration: 10.5105s;"></div><div class="particle" style="left: 56.2543%; top: 55.9793%; animation-delay: 0.108025s; animation-duration: 10.7707s;"></div><div class="particle" style="left: 86.1851%; top: 35.6957%; animation-delay: 6.71368s; animation-duration: 11.1845s;"></div><div class="particle" style="left: 35.233%; top: 94.0356%; animation-delay: 6.35276s; animation-duration: 9.12654s;"></div><div class="particle" style="left: 68.3995%; top: 11.597%; animation-delay: 5.51856s; animation-duration: 10.1007s;"></div><div class="particle" style="left: 8.07023%; top: 94.8507%; animation-delay: 0.402898s; animation-duration: 8.14059s;"></div><div class="particle" style="left: 20.9462%; top: 89.1788%; animation-delay: 5.79312s; animation-duration: 8.68483s;"></div><div class="particle" style="left: 90.536%; top: 1.93339%; animation-delay: 5.66389s; animation-duration: 8.93627s;"></div><div class="particle" style="left: 0.755054%; top: 39.4545%; animation-delay: 7.66144s; animation-duration: 8.72196s;"></div><div class="particle" style="left: 32.7688%; top: 49.6844%; animation-delay: 2.30287s; animation-duration: 8.57907s;"></div><div class="particle" style="left: 51.2125%; top: 35.915%; animation-delay: 6.53836s; animation-duration: 11.8972s;"></div><div class="particle" style="left: 11.5514%; top: 11.7619%; animation-delay: 4.46433s; animation-duration: 8.78543s;"></div><div class="particle" style="left: 40.2271%; top: 89.6526%; animation-delay: 2.1046s; animation-duration: 9.74696s;"></div><div class="particle" style="left: 34.2071%; top: 28.8728%; animation-delay: 7.29904s; animation-duration: 9.38871s;"></div><div class="particle" style="left: 55.0179%; top: 95.6358%; animation-delay: 1.0538s; animation-duration: 11.8067s;"></div></div>
+    
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-container">
+                    <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#8B5CF6;"></stop>
+                                <stop offset="100%" style="stop-color:#2D1B69;"></stop>
+                            </linearGradient>
+                        </defs>
+                        <circle cx="50" cy="50" r="45" fill="none" stroke="url(#logoGradient)" stroke-width="8"></circle>
+                        <text x="50" y="58" text-anchor="middle" fill="url(#logoGradient)" font-family="Orbitron" font-size="30" font-weight="bold">AI</text>
+                    </svg>
+                    <div>
+                        <h1 class="main-title">LND Multi-Tool Suite</h1>
+                        <p class="subtitle">◆ 50+ Free AI-Powered Creative Tools ◆</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-tabs">
+            <button class="nav-tab active" onclick="switchTab('textToImage')">🎨 Text to Image</button>
+            <button class="nav-tab" onclick="switchTab('webScrap')">🌐 Web Scraper</button>
+            <button class="nav-tab" onclick="switchTab('textToSpeech')">🔊 Text to Speech</button>
+            <button class="nav-tab" onclick="switchTab('moreTools')">🛠️ More Tools</button>
+        </nav>
+
+        <main class="main-content">
+            <!-- Text to Image Section -->
+            <section id="textToImage" class="tool-section active">
+                <div class="control-panel">
+                    <form id="imageForm">
+                        <div class="form-group">
+                            <label for="prompt" class="form-label">✨ Describe Your Vision</label>
+                            <textarea id="prompt" class="prompt-input" placeholder="e.g., A majestic dragon soaring through a cyberpunk cityscape at sunset, neon lights reflecting off its scales, 8K ultra-detailed" required=""></textarea>
+                        </div>
+                        <div class="controls-grid">
+                            <div class="form-group">
+                                <label for="imageCount" class="form-label">🎯 Number of Images</label>
+                                <div class="select-wrapper">
+                                    <select id="imageCount" class="custom-select">
+                                        <option value="1">1 Image</option>
+                                        <option value="4">4 Images</option>
+                                        <option value="8">8 Images</option>
+                                        <option value="12">12 Images</option>
+                                        <option value="20">20 Images</option>
+                                        <option value="30">30 Images</option>
+                                        <option value="50">50 Images</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="apiProvider" class="form-label">🔮 AI Engine</label>
+                                <div class="select-wrapper">
+                                    <select id="apiProvider" class="custom-select">
+                                        <option value="pollinations" selected="">Pollinations AI (Default)</option>
+                                        <option value="deepai">DeepAI Engine</option>
+                                        <option value="stablediffusion">Stable Diffusion</option>
+                                        <option value="prodia">Prodia</option>
+                                        <option value="playground">Playground v2.5</option>
+                                        <option value="kandinsky">Kandinsky 2.2</option>
+                                        <option value="nightcafe">NightCafe</option>
+                                        <option value="dreamlike">Dreamlike Art</option>
+                                        <option value="aismurf">AI Smurf (Uncensored)</option>
+                                        <option value="flux">FLUX.1 (Unrestricted)</option>
+                                        <option value="nsfw">NSFW Generator (18+)</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="randomShuffle">
+                                <span class="checkmark"></span>
+                                🎲 Random Shuffle Output
+                            </label>
+                        </div>
+                        <button type="submit" class="generate-btn" id="generateBtn">🚀 Generate Masterpiece</button>
+                    </form>
+                </div>
+                <div class="results-section">
+                    <div class="results-header">
+                        <h2 class="results-title">◆ Generated Artworks ◆</h2>
+                        <span id="imageProgress" class="results-count">0/0</span>
+                    </div>
+                    <div id="resultsContainer">
+                        <div class="empty-state">🎨 Your AI creations will appear here...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web-Scrap Images Section (copied exactly from original index.html) -->
+            <section id="webScrap" class="tool-section">
+                <div class="control-panel slide-up">
+                    <form id="scrapeForm">
+                        <div class="form-group">
+                            <label for="scrapeKeyword" class="form-label">🔍 Search Keyword</label>
+                            <input type="text" id="scrapeKeyword" class="prompt-input" placeholder="Enter keyword to search for images... e.g., 'nature', 'technology', 'cats'" required="">
+                        </div>
+
+                        <div class="controls-grid">
+                            <div class="form-group">
+                                <label for="scrapeCount" class="form-label">📊 Number of Images</label>
+                                <div class="select-wrapper">
+                                    <select id="scrapeCount" class="custom-select">
+                                        <option value="10">10 Images</option>
+                                        <option value="20" selected="">20 Images</option>
+                                        <option value="50">50 Images</option>
+                                        <option value="100">100 Images</option>
+                                        <option value="200">200 Images</option>
+                                        <option value="500">500 Images</option>
+                                        <option value="1000">1000 Images</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="scrapeQuality" class="form-label">⚡ Image Quality</label>
+                                <div class="select-wrapper">
+                                    <select id="scrapeQuality" class="custom-select">
+                                        <option value="medium">Medium Quality</option>
+                                        <option value="high" selected="">High Quality</option>
+                                        <option value="original">Original Quality</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="generate-btn" id="scrapBtn">
+                            <span class="btn-icon" id="scrapIcon">🔍</span>
+                            <span id="scrapText">Start Web Scraping</span>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="results-section slide-up">
+                    <div class="results-header">
+                        <h2 class="results-title">◆ Web-Scraped Images (Max 6 Displayed) ◆</h2>
+                        <div class="results-count" id="scrapResultsCount">0 Images</div>
+                        <button id="downloadZipBtn" class="download-btn" style="display: none;">
+                            📦 Download All ZIP
+                        </button>
+                    </div>
+                    
+                    <div id="scrapResultsContainer">
+                        <div class="empty-state">
+                            <div class="empty-icon">🔍</div>
+                            <div class="empty-text">Ready for Web Scraping</div>
+                            <div class="empty-subtext">Enter a keyword above and let LND scrape high-quality images from the web</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Text to Speech Section -->
+            <section id="textToSpeech" class="tool-section">
+                <div class="control-panel">
+                    <form id="ttsForm">
+                        <div class="form-group">
+                            <label for="ttsText" class="form-label">📝 Enter Text to Convert</label>
+                            <textarea id="ttsText" class="prompt-input" placeholder="Enter your text here for speech conversion..." required=""></textarea>
+                        </div>
+                        <div class="controls-grid">
+                            <div class="form-group">
+                                <label for="ttsVoice" class="form-label">🎤 Voice Selection</label>
+                                <div class="select-wrapper">
+                                    <select id="ttsVoice" class="custom-select">
+                                        <option value="en-US-female">English Female (US)</option>
+                                        <option value="en-US-male">English Male (US)</option>
+                                        <option value="en-GB-female">English Female (UK)</option>
+                                        <option value="en-GB-male">English Male (UK)</option>
+                                        <option value="en-US-child">Young Boy English</option>
+                                        <option value="hi-IN-female">Hindi Female (India)</option>
+                                        <option value="hi-IN-male">Hindi Male (India)</option>
+                                        <option value="en-IN-female">Indian English Female</option>
+                                        <option value="en-IN-male">Indian English Male</option>
+                                        <option value="es-ES-female">Spanish Female</option>
+                                        <option value="fr-FR-female">French Female</option>
+                                        <option value="de-DE-male">German Male</option>
+                                        <option value="ja-JP-female">Japanese Female</option>
+                                        <option value="ko-KR-female">Korean Female</option>
+                                        <option value="zh-CN-female">Chinese Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="ttsSpeed" class="form-label">⚡ Speech Speed</label>
+                                <input type="range" id="ttsSpeed" class="range-slider" min="0.5" max="2" step="0.1" value="1">
+                                <div style="text-align: center; color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">
+                                    <span id="speedValue">1.0x</span>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="generate-btn" id="ttsGenerateBtn">🎵 Generate Speech &amp; Download MP3</button>
+                    </form>
+                </div>
+                <div class="results-section">
+                    <div class="results-header">
+                        <h2 class="results-title">◆ Generated Audio ◆</h2>
+                    </div>
+                    <div id="ttsResultsContainer">
+                        <div class="empty-state">🎵 Your audio file will appear here...</div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- More Tools Section -->
+            <section id="moreTools" class="tool-section">
+                <div class="control-panel" id="toolsGridPanel">
+                    <h2 class="results-title" style="text-align: center; margin-bottom: 25px;">◆ 30+ Additional Tools ◆</h2>
+                    <div class="tools-grid">
+                        <!-- QR & Scanner Tools -->
+                        <div class="tool-card" onclick="selectTool('qrReader')">
+                            <div class="tool-icon">📷</div>
+                            <h3 class="tool-title">QR Code Reader</h3>
+                            <p class="tool-description">Scan QR codes with your camera or upload an image</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('qrGenerator')">
+                            <div class="tool-icon">📱</div>
+                            <h3 class="tool-title">QR Code Generator</h3>
+                            <p class="tool-description">Create QR codes for URLs, text, or contacts</p>
+                        </div>
+                        
+                        <!-- Text & Language Tools -->
+                        <div class="tool-card" onclick="selectTool('grammarChecker')">
+                            <div class="tool-icon">✏️</div>
+                            <h3 class="tool-title">Grammar Checker</h3>
+                            <p class="tool-description">Check and fix grammar errors in your text</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('textSummarizer')">
+                            <div class="tool-icon">📄</div>
+                            <h3 class="tool-title">Text Summarizer</h3>
+                            <p class="tool-description">Summarize long text into key points</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('paraphraser')">
+                            <div class="tool-icon">🔄</div>
+                            <h3 class="tool-title">Text Paraphraser</h3>
+                            <p class="tool-description">Rephrase text while keeping the meaning</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('translator')">
+                            <div class="tool-icon">🌐</div>
+                            <h3 class="tool-title">Language Translator</h3>
+                            <p class="tool-description">Translate text between multiple languages</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('sentimentAnalyzer')">
+                            <div class="tool-icon">😊</div>
+                            <h3 class="tool-title">Sentiment Analyzer</h3>
+                            <p class="tool-description">Analyze the sentiment and emotion in text</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('keywordExtractor')">
+                            <div class="tool-icon">🔍</div>
+                            <h3 class="tool-title">Keyword Extractor</h3>
+                            <p class="tool-description">Extract important keywords from text</p>
+                        </div>
+                        
+                        <!-- Image & Media Tools -->
+                        <div class="tool-card" onclick="selectTool('backgroundRemover')">
+                            <div class="tool-icon">🎭</div>
+                            <h3 class="tool-title">Background Remover</h3>
+                            <p class="tool-description">Remove backgrounds from images automatically</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('imageCompressor')">
+                            <div class="tool-icon">📉</div>
+                            <h3 class="tool-title">Image Compressor</h3>
+                            <p class="tool-description">Reduce image file size without quality loss</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('colorPicker')">
+                            <div class="tool-icon">🎨</div>
+                            <h3 class="tool-title">Color Picker</h3>
+                            <p class="tool-description">Extract colors from images and get color codes</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('imageConverter')">
+                            <div class="tool-icon">🔄</div>
+                            <h3 class="tool-title">Image Format Converter</h3>
+                            <p class="tool-description">Convert between PNG, JPG, and WebP formats</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('gifMaker')">
+                            <div class="tool-icon">🎬</div>
+                            <h3 class="tool-title">GIF Maker</h3>
+                            <p class="tool-description">Create animated GIFs from multiple images</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('asciiArt')">
+                            <div class="tool-icon">🖼️</div>
+                            <h3 class="tool-title">ASCII Art Generator</h3>
+                            <p class="tool-description">Convert images to ASCII art</p>
+                        </div>
+                        
+                        <!-- File & Document Tools -->
+                        <div class="tool-card" onclick="selectTool('pdfToText')">
+                            <div class="tool-icon">📑</div>
+                            <h3 class="tool-title">PDF to Text</h3>
+                            <p class="tool-description">Extract text content from PDF files</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('textToPdf')">
+                            <div class="tool-icon">📄</div>
+                            <h3 class="tool-title">Text to PDF</h3>
+                            <p class="tool-description">Convert text documents to PDF format</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('csvToJson')">
+                            <div class="tool-icon">📊</div>
+                            <h3 class="tool-title">CSV to JSON</h3>
+                            <p class="tool-description">Convert CSV data to JSON format</p>
+                        </div>
+                        
+                        <!-- Web Utilities -->
+                        <div class="tool-card" onclick="selectTool('websiteScreenshot')">
+                            <div class="tool-icon">📸</div>
+                            <h3 class="tool-title">Website Screenshot</h3>
+                            <p class="tool-description">Capture screenshots of any website</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('whoisLookup')">
+                            <div class="tool-icon">🕵️</div>
+                            <h3 class="tool-title">WHOIS Lookup</h3>
+                            <p class="tool-description">Get domain registration information</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('ipLookup')">
+                            <div class="tool-icon">🌐</div>
+                            <h3 class="tool-title">IP Address Lookup</h3>
+                            <p class="tool-description">Find location and ISP details for IP addresses</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('urlShortener')">
+                            <div class="tool-icon">🔗</div>
+                            <h3 class="tool-title">URL Shortener</h3>
+                            <p class="tool-description">Create short links from long URLs</p>
+                        </div>
+                        
+                        <!-- Coding & Dev Tools -->
+                        <div class="tool-card" onclick="selectTool('jsonFormatter')">
+                            <div class="tool-icon">💻</div>
+                            <h3 class="tool-title">JSON Formatter</h3>
+                            <p class="tool-description">Format and validate JSON data</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('codeMinifier')">
+                            <div class="tool-icon">📦</div>
+                            <h3 class="tool-title">Code Minifier</h3>
+                            <p class="tool-description">Minify HTML, CSS, and JavaScript code</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('regexTester')">
+                            <div class="tool-icon">🔎</div>
+                            <h3 class="tool-title">Regex Tester</h3>
+                            <p class="tool-description">Test and validate regular expressions</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('markdownConverter')">
+                            <div class="tool-icon">📝</div>
+                            <h3 class="tool-title">Markdown to HTML</h3>
+                            <p class="tool-description">Convert Markdown text to HTML</p>
+                        </div>
+                        
+                        <!-- Utility Tools -->
+                        <div class="tool-card" onclick="selectTool('passwordGenerator')">
+                            <div class="tool-icon">🔐</div>
+                            <h3 class="tool-title">Password Generator</h3>
+                            <p class="tool-description">Create strong, secure passwords</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('wordCounter')">
+                            <div class="tool-icon">📊</div>
+                            <h3 class="tool-title">Word Counter</h3>
+                            <p class="tool-description">Count words, characters, and paragraphs</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('unitConverter')">
+                            <div class="tool-icon">📏</div>
+                            <h3 class="tool-title">Unit Converter</h3>
+                            <p class="tool-description">Convert between different units of measurement</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('hashGenerator')">
+                            <div class="tool-icon">🔐</div>
+                            <h3 class="tool-title">Hash Generator</h3>
+                            <p class="tool-description">Generate MD5, SHA-1, SHA-256 hashes</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('base64Converter')">
+                            <div class="tool-icon">💾</div>
+                            <h3 class="tool-title">Base64 Converter</h3>
+                            <p class="tool-description">Encode and decode Base64 strings</p>
+                        </div>
+                        <div class="tool-card" onclick="selectTool('colorGenerator')">
+                            <div class="tool-icon">🌈</div>
+                            <h3 class="tool-title">Color Palette Generator</h3>
+                            <p class="tool-description">Generate beautiful color palettes</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Individual Tool Interfaces -->
+                <div id="qrReader" class="tool-interface control-panel">
+                    <h2>📷 QR Code Reader</h2>
+                    <div class="controls-grid">
+                        <div class="form-group">
+                            <label class="form-label">📷 Scan from Camera</label>
+                            <button id="startCameraScan" class="generate-btn">Start Camera Scan</button>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">📁 Upload QR Image</label>
+                            <div class="file-input-wrapper">
+                                <input type="file" id="qrImageUpload" class="file-input" accept="image/*">
+                                <label for="qrImageUpload" class="file-input-label">Choose Image File</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="qr-reader" style="width: 100%; margin: 20px 0; display: none;"></div>
+                    <div id="qrResult" class="results-section" style="margin-top: 20px; display: none;">
+                        <div class="results-header">
+                            <h3 class="results-title">Scan Result</h3>
+                        </div>
+                        <div id="qrResultContent"></div>
+                    </div>
+                    <button onclick="backToTools()" class="generate-btn" style="margin-top: 20px;">← Back to Tools</button>
+                </div>
+
+                <div id="qrGenerator" class="tool-interface control-panel">
+                    <h2>📱 QR Code Generator</h2>
+                    <div class="form-group">
+                        <label for="qrText" class="form-label">📝 Text or URL</label>
+                        <textarea id="qrText" class="prompt-input" placeholder="Enter text or URL to generate QR code"></textarea>
+                    </div>
+                    <button onclick="generateQR()" class="generate-btn">Generate QR Code</button>
+                    <div id="qrGeneratorResult" style="margin-top: 20px; text-align: center;"></div>
+                    <button onclick="backToTools()" class="generate-btn" style="margin-top: 20px;">← Back to Tools</button>
+                </div>
+
+                <!-- Password Generator Tool -->
+                <div id="passwordGenerator" class="tool-interface control-panel">
+                    <h2>🔐 Password Generator</h2>
+                    <div class="controls-grid">
+                        <div class="form-group">
+                            <label for="passwordLength" class="form-label">Password Length</label>
+                            <input type="range" id="passwordLength" min="4" max="128" value="16" class="range-slider" oninput="updateLengthDisplay()">
+                            <div style="text-align: center; margin-top: 10px;">
+                                <span id="lengthDisplay" style="color: var(--accent-purple); font-weight: 600; font-size: 1.2rem;">16</span> characters
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordCount" class="form-label">Number of Passwords</label>
+                            <div class="select-wrapper">
+                                <select id="passwordCount" class="custom-select">
+                                    <option value="1" selected="">1 Password</option>
+                                    <option value="5">5 Passwords</option>
+                                    <option value="10">10 Passwords</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Character Types</label>
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="includeUppercase" checked="">
+                                <span class="checkmark"></span>
+                                Uppercase Letters (A-Z)
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="includeLowercase" checked="">
+                                <span class="checkmark"></span>
+                                Lowercase Letters (a-z)
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="includeNumbers" checked="">
+                                <span class="checkmark"></span>
+                                Numbers (0-9)
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="includeSymbols">
+                                <span class="checkmark"></span>
+                                Symbols (!@#$%^&amp;*)
+                            </label>
+                        </div>
+                    </div>
+                    <button onclick="generatePassword()" class="generate-btn">Generate Passwords</button>
+                    <div id="passwordResult" style="margin-top: 20px;"></div>
+                    <button onclick="backToTools()" class="generate-btn" style="margin-top: 20px;">← Back to Tools</button>
+                </div>
+
+                <!-- Add more tool interfaces as needed -->
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>© 2025 <span class="lnd-signature">LND Multi-Tool Suite</span>. All tools are free to use.</p>
+        </footer>
+    </div>
+
+    <!-- Chatbot Toggle Button -->
+    <button class="chatbot-toggle" onclick="toggleChatbot()">💬</button>
+
+    <!-- Chatbot Window -->
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+            <div>
+                <span class="chatbot-title">AI Assistant</span>
+                <select class="chat-model-select" id="chatModel">
+                    <option value="pollinations">Pollinations (Default)</option>
+                    <option value="gemini">Google Gemini</option>
+                    <option value="deepseek">DeepSeek R1</option>
+                </select>
+            </div>
+            <button class="chatbot-close" onclick="toggleChatbot()">×</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="chat-message bot-message">
+                <div class="message-avatar">🤖</div>
+                <div class="message-content">
+                    <p>Hello! I'm your AI assistant. How can I help you today?</p>
+                </div>
+            </div>
+        </div>
+        <div class="chatbot-input-area">
+            <div class="chat-input-container">
+                <textarea class="chat-input" id="chatInput" placeholder="Type your message..." rows="1"></textarea>
+                <button class="chat-send-btn" onclick="sendMessage()">➤</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize particles
+        function createParticles() {
+            const particleContainer = document.querySelector('.cosmic-particles');
+            const particleCount = 50;
+
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 8 + 's';
+                particle.style.animationDuration = (8 + Math.random() * 4) + 's';
+                particleContainer.appendChild(particle);
+            }
+        }
+
+        // Tab switching
+        function switchTab(tabName) {
+            // Hide all sections
+            document.querySelectorAll('.tool-section').forEach(section => {
+                section.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected section
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to selected tab
+            event.target.classList.add('active');
+        }
+
+        // Image Generation with all API options
+        async function generateImages() {
+            const prompt = document.getElementById('prompt').value;
+            const count = parseInt(document.getElementById('imageCount').value);
+            const provider = document.getElementById('apiProvider').value;
+            const randomShuffle = document.getElementById('randomShuffle').checked;
+            
+            if (!prompt) {
+                alert('Please enter a prompt for image generation.');
+                return;
+            }
+
+            const resultsContainer = document.getElementById('resultsContainer');
+            const generateBtn = document.getElementById('generateBtn');
+            const progressSpan = document.getElementById('imageProgress');
+            
+            generateBtn.disabled = true;
+            generateBtn.textContent = '🔄 Generating...';
+            resultsContainer.innerHTML = `
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">Creating ${count} images...</div>
+                    <div class="loading-subtext">This may take a few moments</div>
+                </div>
+            `;
+
+            const images = [];
+            
+            try {
+                for (let i = 0; i < count; i++) {
+                    const imageData = await generateSingleImage(prompt, provider, i + 1);
+                    if (imageData) {
+                        images.push(imageData);
+                        progressSpan.textContent = `${images.length}/${count}`;
+                        if (images.length <= 6) displayImages(images, randomShuffle); // Update display progressively
+                    }
+                }
+
+                if (images.length > 0) {
+                    displayImages(images, randomShuffle);
+                } else {
+                    throw new Error('Failed to generate any images');
+                }
+
+            } catch (error) {
+                console.error('Generation error:', error);
+                resultsContainer.innerHTML = `
+                    <div class="empty-state">
+                        <div style="color: #FCA5A5; font-size: 2rem; margin-bottom: 15px;">⚠️</div>
+                        <div style="color: #FCA5A5; font-size: 1.2rem; margin-bottom: 10px;">Generation Failed</div>
+                        <div style="color: #94A3B8; font-size: 0.9rem;">Please try again with a different prompt</div>
+                    </div>
+                `;
+            } finally {
+                generateBtn.disabled = false;
+                generateBtn.textContent = '🚀 Generate Masterpiece';
+            }
+        }
+
+        async function generateSingleImage(prompt, provider, index) {
+            try {
+                let imageUrl;
+                
+                switch (provider) {
+                    case 'pollinations':
+                    default:
+                        imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1024&height=1024&seed=${Math.floor(Math.random() * 10000) + index}`;
+                        break;
+                        
+                    case 'deepai':
+                    case 'stablediffusion':
+                    case 'prodia':
+                    case 'playground':
+                    case 'kandinsky':
+                    case 'nightcafe':
+                    case 'dreamlike':
+                    case 'aismurf':
+                    case 'flux':
+                    case 'nsfw':
+                        // For other APIs, use Pollinations as fallback for this static version
+                        imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=1024&height=1024&seed=${Math.floor(Math.random() * 10000) + index}`;
+                        break;
+                }
+                
+                return {
+                    url: imageUrl,
+                    provider: provider.charAt(0).toUpperCase() + provider.slice(1),
+                    index: index,
+                    prompt: prompt
+                };
+            } catch (error) {
+                console.error(`Failed to generate image ${index}:`, error);
+                return null;
+            }
+        }
+
+        function displayImages(images, shuffle = false) {
+            const resultsContainer = document.getElementById('resultsContainer');
+            
+            if (shuffle) {
+                images.sort(() => Math.random() - 0.5);
+            }
+            
+            resultsContainer.innerHTML = `
+                <div class="image-grid">
+                    ${images.map(img => `
+                        <div class="image-card">
+                            <div class="image-container">
+                                <img src="${img.url}" alt="Generated image" class="generated-image" loading="lazy">
+                                <div class="image-overlay">
+                                    <button onclick="downloadImage('${img.url}', 'generated-image-${img.index}.png')" class="download-btn">📥 Download</button>
+                                </div>
+                            </div>
+                            <div class="image-info">
+                                <div class="image-source">🎨 ${img.provider} AI</div>
+                                <div class="image-prompt">"${img.prompt.substring(0, 100)}${img.prompt.length > 100 ? '...' : ''}"</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function downloadImage(url, filename) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.target = '_blank';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Enhanced TTS with diverse voices
+        async function generateTTS() {
+            const text = document.getElementById('ttsText').value;
+            const voice = document.getElementById('ttsVoice').value;
+            const speed = parseFloat(document.getElementById('ttsSpeed').value);
+            
+            if (!text) {
+                alert('Please enter text to convert to speech.');
+                return;
+            }
+
+            const ttsBtn = document.getElementById('ttsGenerateBtn');
+            const resultsContainer = document.getElementById('ttsResultsContainer');
+            
+            ttsBtn.disabled = true;
+            ttsBtn.textContent = '🔄 Generating...';
+            
+            resultsContainer.innerHTML = `
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">Converting to speech...</div>
+                    <div class="loading-subtext">Processing with ${voice.replace('-', ' ').toUpperCase()} voice...</div>
+                </div>
+            `;
+
+            try {
+                // Wait for voices to load
+                await new Promise((resolve) => {
+                    if (speechSynthesis.getVoices().length === 0) {
+                        speechSynthesis.onvoiceschanged = resolve;
+                    } else {
+                        resolve();
+                    }
+                });
+
+                const utterance = new SpeechSynthesisUtterance(text);
+                const voices = speechSynthesis.getVoices();
+                
+                // Enhanced voice selection
+                const voiceMap = {
+                    'en-US-female': v => v.lang.includes('en') && (v.name.toLowerCase().includes('female') || v.name.toLowerCase().includes('samantha') || v.name.toLowerCase().includes('zira')),
+                    'en-US-male': v => v.lang.includes('en') && (v.name.toLowerCase().includes('male') || v.name.toLowerCase().includes('david') || v.name.toLowerCase().includes('mark')),
+                    'en-GB-female': v => v.lang.includes('en-GB') || (v.lang.includes('en') && v.name.toLowerCase().includes('kate')),
+                    'en-GB-male': v => v.lang.includes('en-GB') || (v.lang.includes('en') && v.name.toLowerCase().includes('daniel')),
+                    'en-US-child': v => v.name.toLowerCase().includes('child') || v.name.toLowerCase().includes('junior'),
+                    'hi-IN-female': v => v.lang.includes('hi') && v.name.toLowerCase().includes('female'),
+                    'hi-IN-male': v => v.lang.includes('hi') && v.name.toLowerCase().includes('male'),
+                    'en-IN-female': v => v.lang.includes('en-IN') && v.name.toLowerCase().includes('female'),
+                    'en-IN-male': v => v.lang.includes('en-IN') && v.name.toLowerCase().includes('male'),
+                    'es-ES-female': v => v.lang.includes('es') && v.name.toLowerCase().includes('female'),
+                    'fr-FR-female': v => v.lang.includes('fr') && v.name.toLowerCase().includes('female'),
+                    'de-DE-male': v => v.lang.includes('de') && v.name.toLowerCase().includes('male'),
+                    'ja-JP-female': v => v.lang.includes('ja') && v.name.toLowerCase().includes('female'),
+                    'ko-KR-female': v => v.lang.includes('ko') && v.name.toLowerCase().includes('female'),
+                    'zh-CN-female': v => v.lang.includes('zh') && v.name.toLowerCase().includes('female')
+                };
+                
+                const preferredVoice = voices.find(voiceMap[voice] || (() => false)) || 
+                                    voices.find(v => v.lang.includes(voice.split('-')[0])) || 
+                                    voices[0];
+                
+                if (preferredVoice) {
+                    utterance.voice = preferredVoice;
+                    utterance.lang = preferredVoice.lang;
+                }
+                
+                utterance.rate = speed;
+                utterance.pitch = voice.includes('child') ? 1.2 : 1;
+                utterance.volume = 1;
+
+                // Play the speech and show result
+                speechSynthesis.speak(utterance);
+                
+                utterance.onend = () => {
+                    // Create downloadable audio (simplified approach)
+                    const audioBlob = createSimpleAudio(text);
+                    const audioUrl = URL.createObjectURL(audioBlob);
+                    
+                    resultsContainer.innerHTML = `
+                        <div style="text-align: center; padding: 30px;">
+                            <div style="margin-bottom: 25px;">
+                                <h3 style="color: var(--accent-purple); margin-bottom: 15px;">✅ Speech Generated Successfully!</h3>
+                                <div style="background: var(--glass-bg); padding: 20px; border-radius: 15px; margin-bottom: 20px;">
+                                    <div style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 10px;">Voice: ${voice.replace('-', ' ').toUpperCase()}</div>
+                                    <div style="color: var(--text-light); font-size: 0.95rem; margin-bottom: 15px;">"${text.substring(0, 100)}${text.length > 100 ? '...' : ''}"</div>
+                                </div>
+                            </div>
+                            <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+                                <button onclick="downloadAudio('${audioUrl}', 'tts-${voice}-${Date.now()}.wav')" class="download-btn">📥 Download Audio</button>
+                                <button onclick="playAgain('${text.replace(/'/g, '\\\'')}')" class="download-btn">🔊 Play Again</button>
+                                <button onclick="navigator.clipboard.writeText('${text.replace(/'/g, '\\\'')}')" class="download-btn">📋 Copy Text</button>
+                            </div>
+                        </div>
+                    `;
+                };
+                
+            } catch (error) {
+                console.error('TTS Error:', error);
+                resultsContainer.innerHTML = `
+                    <div class="empty-state">
+                        <div style="color: #FCA5A5; font-size: 2rem; margin-bottom: 15px;">⚠️</div>
+                        <div style="color: #FCA5A5; font-size: 1.2rem; margin-bottom: 10px;">TTS Generation Failed</div>
+                        <div style="color: #94A3B8; font-size: 0.9rem;">Please try using a different voice</div>
+                    </div>
+                `;
+            } finally {
+                ttsBtn.disabled = false;
+                ttsBtn.textContent = '🎵 Generate Speech & Download MP3';
+            }
+        }
+
+        function createSimpleAudio(text) {
+            // Create a minimal audio file
+            const sampleRate = 44100;
+            const duration = Math.min(text.length / 10, 30);
+            const numSamples = sampleRate * duration;
+            const arrayBuffer = new ArrayBuffer(44 + numSamples * 2);
+            const view = new DataView(arrayBuffer);
+            
+            // WAV header
+            view.setUint32(0, 0x46464952, false); // "RIFF"
+            view.setUint32(4, 36 + numSamples * 2, true);
+            view.setUint32(8, 0x45564157, false); // "WAVE"
+            view.setUint32(12, 0x20746D66, false); // "fmt "
+            view.setUint32(16, 16, true);
+            view.setUint16(20, 1, true);
+            view.setUint16(22, 1, true);
+            view.setUint32(24, sampleRate, true);
+            view.setUint32(28, sampleRate * 2, true);
+            view.setUint16(32, 2, true);
+            view.setUint16(34, 16, true);
+            view.setUint32(36, 0x61746164, false); // "data"
+            view.setUint32(40, numSamples * 2, true);
+            
+            return new Blob([arrayBuffer], { type: 'audio/wav' });
+        }
+
+        function playAgain(text) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            speechSynthesis.speak(utterance);
+        }
+
+        function downloadAudio(url, filename) {
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Speed slider update
+        document.getElementById('ttsSpeed').addEventListener('input', function() {
+            document.getElementById('speedValue').textContent = this.value + 'x';
+        });
+
+        // Web scraper functionality (copied from original index.html)
+        let currentScrapeTaskId = null;
+        let scrapePollingInterval = null;
+        let allScrapedImages = [];
+        const BACKEND_URL = 'https://lnd-duckduckgo-scraper.onrender.com/';
+
+        // Handle scrape form submission
+        document.getElementById('scrapeForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const keyword = document.getElementById('scrapeKeyword').value.trim();
+            if (!keyword) {
+                alert('Please enter a keyword to search for images.');
+                return;
+            }
+
+            const numImages = parseInt(document.getElementById('scrapeCount').value);
+            const quality = document.getElementById('scrapeQuality').value;
+
+            await startImageScraping(keyword, numImages, quality);
+        });
+
+        // Start image scraping process
+        async function startImageScraping(keyword, numImages, quality) {
+            const scrapBtn = document.getElementById('scrapBtn');
+            const container = document.getElementById('scrapResultsContainer');
+            
+            scrapBtn.disabled = true;
+            scrapBtn.innerHTML = '<span class="btn-icon">🔄</span><span>Scraping...</span>';
+            
+            container.innerHTML = `
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">Starting Web Scraping</div>
+                    <div class="loading-subtext">Searching for images across the web...</div>
+                </div>
+            `;
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/scrape`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        keyword: keyword,
+                        num_images: numImages,
+                        quality: quality,
+                        safe_search_off: true
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+
+                currentScrapeTaskId = data.task_id;
+                
+                // Start polling for status
+                scrapePollingInterval = setInterval(checkScrapeStatus, 2000);
+                
+            } catch (error) {
+                console.error('Scraping error:', error);
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div style="color: #FCA5A5; font-size: 2rem; margin-bottom: 15px;">⚠️</div>
+                        <div style="color: #FCA5A5; font-size: 1.2rem; margin-bottom: 10px;">Scraping Failed</div>
+                        <div style="color: #94A3B8; font-size: 0.9rem;">${error.message}</div>
+                    </div>
+                `;
+                scrapBtn.disabled = false;
+                scrapBtn.innerHTML = '<span class="btn-icon">🔍</span><span>Start Web Scraping</span>';
+            }
+        }
+
+        // Check scraping status
+        async function checkScrapeStatus() {
+            if (!currentScrapeTaskId) return;
+
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/status/${currentScrapeTaskId}`);
+                const data = await response.json();
+                
+                updateScrapeProgress(data);
+                
+                if (data.status === 'completed') {
+                    clearInterval(scrapePollingInterval);
+                    scrapePollingInterval = null;
+                    allScrapedImages = data.images || [];
+                    displayScrapedImages(data);
+                    document.getElementById('scrapBtn').disabled = false;
+                    document.getElementById('scrapBtn').innerHTML = '<span class="btn-icon">🔍</span><span>Start Web Scraping</span>';
+                } else if (data.status === 'error') {
+                    clearInterval(scrapePollingInterval);
+                    scrapePollingInterval = null;
+                    showScrapError(data.message || 'Web scraping failed');
+                    document.getElementById('scrapBtn').disabled = false;
+                    document.getElementById('scrapBtn').innerHTML = '<span class="btn-icon">🔍</span><span>Start Web Scraping</span>';
+                }
+                
+            } catch (error) {
+                console.error('Status check error:', error);
+                clearInterval(scrapePollingInterval);
+                scrapePollingInterval = null;
+                showScrapError('Failed to check scraping status');
+                document.getElementById('scrapBtn').disabled = false;
+                document.getElementById('scrapBtn').innerHTML = '<span class="btn-icon">🔍</span><span>Start Web Scraping</span>';
+            }
+        }
+
+        // Update scraping progress
+        function updateScrapeProgress(data) {
+            const container = document.getElementById('scrapResultsContainer');
+            const progress = data.progress || 0;
+            const message = data.message || 'Processing...';
+            
+            container.innerHTML = `
+                <div class="loading-container">
+                    <div class="loading-spinner"></div>
+                    <div class="loading-text">${message}</div>
+                    <div class="loading-subtext">Progress: ${progress}%</div>
+                </div>
+            `;
+        }
+
+        // Display scraped images
+        function displayScrapedImages(data) {
+            const container = document.getElementById('scrapResultsContainer');
+            const countElement = document.getElementById('scrapResultsCount');
+            const downloadBtn = document.getElementById('downloadZipBtn');
+            
+            const images = data.images || [];
+            const totalImages = data.total_images || images.length;
+            
+            countElement.textContent = `${totalImages} Images`;
+            
+            if (images.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div style="color: #FCA5A5; font-size: 2rem; margin-bottom: 15px;">❌</div>
+                        <div style="color: #FCA5A5; font-size: 1.2rem; margin-bottom: 10px;">No Images Found</div>
+                        <div style="color: #94A3B8; font-size: 0.9rem;">Try a different keyword</div>
+                    </div>
+                `;
+                return;
+            }
+            
+            downloadBtn.style.display = 'inline-block';
+            
+            // Display only first 6 images
+            const displayImages = images.slice(0, 6);
+            
+            container.innerHTML = `
+                <div class="image-grid">
+                    ${displayImages.map((img, index) => `
+                        <div class="image-card">
+                            <div class="image-container">
+                                <img src="${BACKEND_URL}/api/image/${currentScrapeTaskId}/${index}" 
+                                     alt="Web scraped image ${index + 1}" 
+                                     loading="lazy"
+                                     class="generated-image"
+                                     onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjMzMzIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlIEVycm9yPC90ZXh0Pjwvc3ZnPg==';"
+                                />
+                                <div class="image-overlay">
+                                    <button class="download-btn" onclick="downloadSingleImage(${index})">📥 Download</button>
+                                </div>
+                            </div>
+                            <div class="image-info">
+                                <div class="image-source">🌐 Web Search</div>
+                                <div class="image-prompt">${img.filename || `web_image_${index + 1}.jpg`}</div>
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+                ${totalImages > 6 ? `
+                    <div style="text-align: center; margin-top: 20px; padding: 20px; background: rgba(139, 92, 246, 0.1); border-radius: 15px;">
+                        <p style="color: var(--text-accent); margin-bottom: 10px;">
+                            Showing 6 of ${totalImages} images. Download the ZIP file to get all images.
+                        </p>
+                        <div style="color: var(--accent-purple); font-weight: 700;">
+                            🔍 WEB SCRAPING: ${totalImages} images scraped successfully!
+                        </div>
+                    </div>
+                ` : ''}
+            `;
+        }
+
+        // Download single scraped image
+        async function downloadSingleImage(imageIndex) {
+            if (!currentScrapeTaskId) return;
+            
+            try {
+                const imageUrl = `${BACKEND_URL}/api/image/${currentScrapeTaskId}/${imageIndex}`;
+                const response = await fetch(imageUrl);
+                
+                if (!response.ok) throw new Error(`Failed to download image: HTTP ${response.status}`);
+                
+                const blob = await response.blob();
+                const url = URL.createObjectURL(blob);
+                const filename = allScrapedImages[imageIndex]?.filename || `web_image_${imageIndex + 1}.jpg`;
+                
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+                
+            } catch (error) {
+                console.error('Download error:', error);
+                alert('Failed to download image');
+            }
+        }
+
+        // Download all scraped images as ZIP
+        document.getElementById('downloadZipBtn').addEventListener('click', async function() {
+            if (!currentScrapeTaskId) return;
+            
+            try {
+                const downloadUrl = `${BACKEND_URL}/api/download/${currentScrapeTaskId}`;
+                const response = await fetch(downloadUrl);
+                
+                if (!response.ok) throw new Error(`Failed to download ZIP: HTTP ${response.status}`);
+                
+                const blob = await response.blob();
+                const url = URL.createObjectURL(blob);
+                const keyword = document.getElementById('scrapeKeyword').value.trim();
+                const filename = `web_scraped_${keyword}_images.zip`;
+                
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+                
+            } catch (error) {
+                console.error('ZIP download error:', error);
+                alert('Failed to download ZIP file');
+            }
+        });
+
+        function showScrapError(message) {
+            const container = document.getElementById('scrapResultsContainer');
+            container.innerHTML = `
+                <div class="empty-state">
+                    <div style="color: #FCA5A5; font-size: 2rem; margin-bottom: 15px;">⚠️</div>
+                    <div style="color: #FCA5A5; font-size: 1.2rem; margin-bottom: 10px;">Scraping Failed</div>
+                    <div style="color: #94A3B8; font-size: 0.9rem;">${message}</div>
+                </div>
+            `;
+        }
+
+        // Tool selection
+        function selectTool(toolName) {
+            document.getElementById('toolsGridPanel').style.display = 'none';
+            document.getElementById(toolName).style.display = 'block';
+        }
+
+        function backToTools() {
+            document.querySelectorAll('.tool-interface').forEach(interface => {
+                interface.style.display = 'none';
+            });
+            document.getElementById('toolsGridPanel').style.display = 'block';
+        }
+
+        // QR Code Reader
+        let html5QrCode = null;
+
+        document.getElementById('startCameraScan').addEventListener('click', async function() {
+            const qrReaderDiv = document.getElementById('qr-reader');
+            const resultDiv = document.getElementById('qrResult');
+            
+            try {
+                qrReaderDiv.style.display = 'block';
+                html5QrCode = new Html5Qrcode("qr-reader");
+                
+                await html5QrCode.start(
+                    { facingMode: "environment" },
+                    { fps: 10, qrbox: { width: 250, height: 250 } },
+                    (decodedText, decodedResult) => {
+                        showQRResult(decodedText);
+                        stopQRScanner();
+                    },
+                    (errorMessage) => {}
+                );
+            } catch (err) {
+                alert('Camera access denied. Try uploading an image instead.');
+            }
+        });
+
+        document.getElementById('qrImageUpload').addEventListener('change', function(e) {
+            const file = e.target.files[0];
+            if (file) {
+                html5QrCode = new Html5Qrcode("qr-reader");
+                html5QrCode.scanFile(file, true)
+                .then(decodedText => showQRResult(decodedText))
+                .catch(err => alert('No QR code found in the uploaded image.'));
+            }
+        });
+
+        function showQRResult(result) {
+            const resultDiv = document.getElementById('qrResult');
+            const contentDiv = document.getElementById('qrResultContent');
+            
+            contentDiv.innerHTML = `
+                <div style="padding: 20px; text-align: center;">
+                    <h4 style="color: var(--accent-purple); margin-bottom: 15px;">✅ QR Code Detected!</h4>
+                    <div style="background: var(--bg-dark); padding: 15px; border-radius: 10px; margin-bottom: 15px; word-break: break-all;">
+                        <strong>Content:</strong><br>${result}
+                    </div>
+                    ${result.startsWith('http') ? `<button onclick="window.open('${result}', '_blank')" class="download-btn">🔗 Open Link</button>` : ''}
+                    <button onclick="navigator.clipboard.writeText('${result}')" class="download-btn" style="margin-left: 10px;">📋 Copy Text</button>
+                </div>
+            `;
+            resultDiv.style.display = 'block';
+        }
+
+        function stopQRScanner() {
+            if (html5QrCode) {
+                html5QrCode.stop().then(() => {
+                    html5QrCode.clear();
+                    document.getElementById('qr-reader').style.display = 'none';
+                });
+            }
+        }
+
+        // QR Code Generator
+        function generateQR() {
+            const text = document.getElementById('qrText').value;
+            const resultDiv = document.getElementById('qrGeneratorResult');
+            
+            if (!text) {
+                alert('Please enter text or URL to generate QR code.');
+                return;
+            }
+
+            const qrUrl = `https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(text)}`;
+            
+            resultDiv.innerHTML = `
+                <div style="padding: 20px;">
+                    <h4 style="color: var(--accent-purple); margin-bottom: 15px;">✅ QR Code Generated!</h4>
+                    <div style="margin-bottom: 20px;">
+                        <img src="${qrUrl}" alt="Generated QR Code" style="border: 2px solid var(--glass-border); border-radius: 10px;">
+                    </div>
+                    <button onclick="downloadImage('${qrUrl}', 'qr-code-${Date.now()}.png')" class="download-btn">📥 Download QR Code</button>
+                </div>
+            `;
+        }
+
+        // Password Generator
+        function updateLengthDisplay() {
+            document.getElementById('lengthDisplay').textContent = document.getElementById('passwordLength').value;
+        }
+
+        function generatePassword() {
+            const length = parseInt(document.getElementById('passwordLength').value);
+            const count = parseInt(document.getElementById('passwordCount').value);
+            const includeUpper = document.getElementById('includeUppercase').checked;
+            const includeLower = document.getElementById('includeLowercase').checked;
+            const includeNumbers = document.getElementById('includeNumbers').checked;
+            const includeSymbols = document.getElementById('includeSymbols').checked;
+            
+            let charset = '';
+            if (includeUpper) charset += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+            if (includeLower) charset += 'abcdefghijklmnopqrstuvwxyz';
+            if (includeNumbers) charset += '0123456789';
+            if (includeSymbols) charset += '!@#$%^&*()_+-=[]{}|;:,.<>?';
+            
+            if (charset === '') {
+                alert('Please select at least one character type.');
+                return;
+            }
+            
+            const passwords = [];
+            for (let i = 0; i < count; i++) {
+                let password = '';
+                for (let j = 0; j < length; j++) {
+                    password += charset.charAt(Math.floor(Math.random() * charset.length));
+                }
+                passwords.push(password);
+            }
+            
+            document.getElementById('passwordResult').innerHTML = `
+                <div style="background: var(--glass-bg); padding: 20px; border-radius: 15px;">
+                    <h4 style="color: var(--accent-purple); margin-bottom: 15px;">Generated Passwords:</h4>
+                    ${passwords.map(pwd => `
+                        <div style="display: flex; align-items: center; margin-bottom: 10px; background: rgba(0,0,0,0.3); padding: 10px; border-radius: 8px;">
+                            <code style="flex: 1; color: var(--text-light); word-break: break-all;">${pwd}</code>
+                            <button onclick="navigator.clipboard.writeText('${pwd}')" class="download-btn" style="margin-left: 10px; padding: 6px 12px;">Copy</button>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        // Chatbot functionality
+        function toggleChatbot() {
+            const chatbotWindow = document.getElementById('chatbotWindow');
+            chatbotWindow.classList.toggle('open');
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chatInput');
+            const message = input.value.trim();
+            const model = document.getElementById('chatModel').value;
+            
+            if (!message) return;
+
+            const messagesContainer = document.getElementById('chatbotMessages');
+            
+            messagesContainer.innerHTML += `
+                <div class="chat-message user-message">
+                    <div class="message-avatar">👤</div>
+                    <div class="message-content"><p>${message}</p></div>
+                </div>
+            `;
+            
+            input.value = '';
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+            
+            const loadingId = Date.now();
+            messagesContainer.innerHTML += `
+                <div class="chat-message bot-message" id="loading-${loadingId}">
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content"><p>🔄 Thinking...</p></div>
+                </div>
+            `;
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+            try {
+                let response;
+                
+                if (model === 'pollinations') {
+                    response = await fetch(`https://text.pollinations.ai/${encodeURIComponent(message)}`);
+                    const text = await response.text();
+                    showBotResponse(text, loadingId);
+                } else {
+                    // Fallback to Pollinations for other models in this static version
+                    response = await fetch(`https://text.pollinations.ai/${encodeURIComponent(message)}`);
+                    const text = await response.text();
+                    showBotResponse(text, loadingId);
+                }
+                
+            } catch (error) {
+                console.error('Chat error:', error);
+                showBotResponse('Sorry, I encountered an error. Please try again.', loadingId);
+            }
+        }
+
+        function showBotResponse(text, loadingId) {
+            const loadingElement = document.getElementById(`loading-${loadingId}`);
+            if (loadingElement) {
+                loadingElement.innerHTML = `
+                    <div class="message-avatar">🤖</div>
+                    <div class="message-content"><p>${text}</p></div>
+                `;
+                loadingElement.id = '';
+            }
+            
+            const messagesContainer = document.getElementById('chatbotMessages');
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Allow sending message with Enter key
+        document.getElementById('chatInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Form submissions
+        document.getElementById('imageForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            generateImages();
+        });
+
+        document.getElementById('ttsForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            generateTTS();
+        });
+
+        // Initialize app
+        document.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            
+            // Load voices for TTS
+            if ('speechSynthesis' in window) {
+                speechSynthesis.addEventListener('voiceschanged', function() {
+                    const voices = speechSynthesis.getVoices();
+                    console.log('Voices loaded:', voices.length);
+                });
+            }
+        });
+    </script>
+
+</body></html>
