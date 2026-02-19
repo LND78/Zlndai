@@ -1,0 +1,1105 @@
+{
+  "chapterName": "Chapter 13",
+  "questions": [
+    {
+      "id": 1,
+      "type": "conceptual_trap",
+      "question": "Q1",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "W",
+          "C": "W",
+          "D": "W"
+        }
+      },
+      "difficultyLevel": "easy"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 32",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 33",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 34",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 35",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 36",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 37",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 38",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 39",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 40",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 41",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 42",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 43",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 44",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 45",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 46",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 47",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 48",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 49",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 50",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Detailed explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 21,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 21",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 22,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 22",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 23,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 23",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 24,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 24",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 25,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 25",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 26,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 26",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 27,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 27",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 28,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 28",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 29,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 29",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 30,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 30",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 31,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 31",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 32",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 33",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 34",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 35",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 36",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 37",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 38",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 39",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 40",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 41",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 42",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 43",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 44",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 45",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 46",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 47",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 48",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 49",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 50",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    }
+  ]
+}

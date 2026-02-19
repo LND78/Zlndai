@@ -1,0 +1,1105 @@
+{
+  "chapterName": "Acids, Bases and Salts",
+  "questions": [
+    {
+      "id": 1,
+      "type": "conceptual_trap",
+      "question": "Which property is common to all acids?",
+      "options": {
+        "A": "Sour taste",
+        "B": "Conduct electricity in aqueous solution",
+        "C": "Turn litmus paper blue",
+        "D": "Slippery feel"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "All acids conduct electricity in aqueous solution due to ionization. Taste is subjective and dangerous to test; litmus turns red (not blue); slippery feel is for bases.",
+        "whyOthersWrong": {
+          "A": "Subjective and unsafe to test",
+          "B": "",
+          "C": "Acids turn litmus red, not blue",
+          "D": "This is a property of bases"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 2,
+      "type": "conceptual_trap",
+      "question": "A solution has pH = 7. What is its nature?",
+      "options": {
+        "A": "Acidic",
+        "B": "Basic",
+        "C": "Neutral",
+        "D": "Cannot be determined"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "pH = 7 indicates [H\u207a] = [OH\u207b], which defines a neutral solution. pH < 7 is acidic; pH > 7 is basic.",
+        "whyOthersWrong": {
+          "A": "Acidic solutions have pH < 7",
+          "B": "Basic solutions have pH > 7",
+          "C": "",
+          "D": "pH = 7 clearly indicates neutral"
+        }
+      },
+      "difficultyLevel": "easy"
+    },
+    {
+      "id": 3,
+      "type": "conceptual_trap",
+      "question": "Why does phenolphthalein turn pink in basic solutions?",
+      "options": {
+        "A": "Because it reacts with OH\u207b ions",
+        "B": "Because it is a weak acid that changes color at high pH",
+        "C": "Because it absorbs more light in basic conditions",
+        "D": "Because it forms a salt with the base"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Phenolphthalein is a weak acid indicator that changes color due to structural changes when it reacts with OH\u207b ions in basic solutions.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "While it's a weak acid, the color change is due to reaction with OH\u207b",
+          "C": "Light absorption is a result, not the cause",
+          "D": "It doesn't form a salt; it undergoes structural change"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 4,
+      "type": "conceptual_trap",
+      "question": "In the reaction HCl + NaOH \u2192 NaCl + H\u2082O, what is being neutralized?",
+      "options": {
+        "A": "The acid is neutralized",
+        "B": "The base is neutralized",
+        "C": "Both acid and base are neutralized",
+        "D": "Neither acid nor base is neutralized"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "In neutralization, H\u207a from acid and OH\u207b from base combine to form water. Both reactants are consumed and neutralized.",
+        "whyOthersWrong": {
+          "A": "The base is also neutralized",
+          "B": "The acid is also neutralized",
+          "C": "",
+          "D": "Both are neutralized"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 5,
+      "type": "conceptual_trap",
+      "question": "A salt solution is acidic. What does this indicate?",
+      "options": {
+        "A": "The salt is made from a strong acid and weak base",
+        "B": "The salt is made from a weak acid and strong base",
+        "C": "The salt is made from a strong acid and strong base",
+        "D": "The salt undergoes hydrolysis"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Salts from strong acids and weak bases are acidic because the weak base's conjugate acid hydrolyzes to release H\u207a ions.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "This would make the salt basic",
+          "C": "This would make the salt neutral",
+          "D": "While hydrolysis occurs, the cause is the salt composition"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 6,
+      "type": "conceptual_trap",
+      "question": "Why is HCl considered a strong acid while acetic acid (CH\u2083COOH) is weak?",
+      "options": {
+        "A": "HCl is more concentrated",
+        "B": "HCl completely ionizes in water; acetic acid partially ionizes",
+        "C": "HCl has more hydrogen atoms",
+        "D": "Acetic acid is less soluble in water"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Strong acids completely dissociate into ions; weak acids only partially ionize. This is a fundamental property, not related to concentration or solubility.",
+        "whyOthersWrong": {
+          "A": "Concentration doesn't determine strength",
+          "B": "",
+          "C": "Number of H atoms is irrelevant",
+          "D": "Solubility is not the determining factor"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 7,
+      "type": "conceptual_trap",
+      "question": "Which indicator would be best for detecting a very weak acid (pH \u2248 6)?",
+      "options": {
+        "A": "Methyl orange (pH range 3.1-4.4)",
+        "B": "Methyl red (pH range 4.4-6.2)",
+        "C": "Phenolphthalein (pH range 8.2-10)",
+        "D": "Litmus paper"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "An indicator's pH range should overlap with the solution's pH. Methyl red (4.4-6.2) covers pH \u2248 6, while others don't.",
+        "whyOthersWrong": {
+          "A": "pH range is too low",
+          "B": "",
+          "C": "pH range is too high",
+          "D": "Litmus is not specific enough for weak acids"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 8,
+      "type": "conceptual_trap",
+      "question": "A solution turns red litmus blue and blue litmus red. What is it?",
+      "options": {
+        "A": "Acidic",
+        "B": "Basic",
+        "C": "Neutral",
+        "D": "Cannot be determined"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "This is impossible. A solution cannot simultaneously turn red litmus blue (basic property) and blue litmus red (acidic property). The question describes a contradiction.",
+        "whyOthersWrong": {
+          "A": "Would only turn blue litmus red",
+          "B": "Would only turn red litmus blue",
+          "C": "Would not change either litmus",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 9,
+      "type": "conceptual_trap",
+      "question": "When an acid and base react, the products are always:",
+      "options": {
+        "A": "Salt and water",
+        "B": "Salt, water, and gas",
+        "C": "Salt and a new acid",
+        "D": "Water and a new base"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Neutralization of an acid and base always produces a salt and water. Gas evolution is not guaranteed.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Gas is not always produced",
+          "C": "A new acid is not formed",
+          "D": "A new base is not formed"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 10,
+      "type": "conceptual_trap",
+      "question": "Why do we use indicators instead of tasting solutions to determine if they're acidic or basic?",
+      "options": {
+        "A": "Indicators are more accurate",
+        "B": "Tasting is dangerous and subjective",
+        "C": "Indicators work faster",
+        "D": "Indicators are cheaper"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Many acids and bases are corrosive and toxic. Tasting is also subjective and unreliable. Indicators are the safe, objective method.",
+        "whyOthersWrong": {
+          "A": "Accuracy is not the main reason",
+          "B": "",
+          "C": "Speed is not the main reason",
+          "D": "Cost is not the main reason"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 11,
+      "type": "assertion_reason",
+      "question": "Assertion: A solution with pH = 2 is more acidic than a solution with pH = 4.\nReason: Lower pH values indicate higher H\u207a ion concentration.",
+      "options": {
+        "A": "Both true, R explains A",
+        "B": "Both true, R doesn't explain A",
+        "C": "A true, R false",
+        "D": "A false, R true"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Both are true. pH = 2 has [H\u207a] = 10\u207b\u00b2 M; pH = 4 has [H\u207a] = 10\u207b\u2074 M. Lower pH means higher H\u207a concentration (R explains A).",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "R is the reason for A",
+          "C": "R is true",
+          "D": "A is true"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 12,
+      "type": "assertion_reason",
+      "question": "Assertion: Methyl orange is not suitable for titrating a weak acid with a strong base.\nReason: Methyl orange's pH range (3.1-4.4) is below the equivalence point of weak acid-strong base titration.",
+      "options": {
+        "A": "Both true, R explains A",
+        "B": "Both true, R doesn't explain A",
+        "C": "A true, R false",
+        "D": "A false, R true"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Both are true. Weak acid-strong base titrations have equivalence points at pH > 7. Methyl orange's range is too low (R explains A).",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "R is the reason for A",
+          "C": "R is true",
+          "D": "A is true"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 13,
+      "type": "assertion_reason",
+      "question": "Assertion: HCl is a stronger acid than CH\u2083COOH.\nReason: HCl has a lower pH than CH\u2083COOH of the same concentration.",
+      "options": {
+        "A": "Both true, R explains A",
+        "B": "Both true, R doesn't explain A",
+        "C": "A true, R false",
+        "D": "A false, R true"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Both are true. HCl completely ionizes, producing more H\u207a and lower pH (R explains A).",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "R is the reason for A",
+          "C": "R is true",
+          "D": "A is true"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 14,
+      "type": "assertion_reason",
+      "question": "Assertion: Salts can be acidic, basic, or neutral.\nReason: The nature of a salt depends on the strength of the acid and base from which it is formed.",
+      "options": {
+        "A": "Both true, R explains A",
+        "B": "Both true, R doesn't explain A",
+        "C": "A true, R false",
+        "D": "A false, R true"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Both are true. Salt nature depends on the parent acid and base (R explains A).",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "R is the reason for A",
+          "C": "R is true",
+          "D": "A is true"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 15,
+      "type": "assertion_reason",
+      "question": "Assertion: Universal indicator is better than litmus paper for determining pH.\nReason: Universal indicator shows a range of colors corresponding to different pH values.",
+      "options": {
+        "A": "Both true, R explains A",
+        "B": "Both true, R doesn't explain A",
+        "C": "A true, R false",
+        "D": "A false, R true"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Both are true. Universal indicator's color range (R) makes it better for determining specific pH (A).",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "R is the reason for A",
+          "C": "R is true",
+          "D": "A is true"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 16,
+      "type": "numerical",
+      "question": "If pH = 3, what is the [H\u207a] concentration?",
+      "options": {
+        "A": "10\u207b\u00b3 M",
+        "B": "10\u207b\u00b9\u00b9 M",
+        "C": "3 M",
+        "D": "0.3 M"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "pH = -log[H\u207a], so 3 = -log[H\u207a], therefore [H\u207a] = 10\u207b\u00b3 M = 0.001 M.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "This is pOH",
+          "C": "This is not calculated from pH",
+          "D": "This is not calculated from pH"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 17,
+      "type": "numerical",
+      "question": "If [OH\u207b] = 10\u207b\u2075 M, what is the pOH?",
+      "options": {
+        "A": "5",
+        "B": "9",
+        "C": "10\u207b\u2075",
+        "D": "-5"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "pOH = -log[OH\u207b] = -log(10\u207b\u2075) = 5.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "This would be pH (14-5)",
+          "C": "This is [OH\u207b], not pOH",
+          "D": "pOH is positive"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 18,
+      "type": "numerical",
+      "question": "In the neutralization: H\u2082SO\u2084 + 2NaOH \u2192 Na\u2082SO\u2084 + 2H\u2082O, if 0.5 moles of H\u2082SO\u2084 react, how many moles of NaOH are needed?",
+      "options": {
+        "A": "0.5 moles",
+        "B": "1 mole",
+        "C": "2 moles",
+        "D": "0.25 moles"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Ratio is 1:2 (H\u2082SO\u2084:NaOH). For 0.5 moles H\u2082SO\u2084, NaOH = 0.5 \u00d7 2 = 1 mole.",
+        "whyOthersWrong": {
+          "A": "This ignores the 1:2 ratio",
+          "B": "",
+          "C": "This would be for 1 mole of H\u2082SO\u2084",
+          "D": "This would be for 0.125 moles of H\u2082SO\u2084"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 19,
+      "type": "numerical",
+      "question": "If pH + pOH = 14 and pH = 5, what is [OH\u207b]?",
+      "options": {
+        "A": "10\u207b\u2075 M",
+        "B": "10\u207b\u2079 M",
+        "C": "10\u207b\u00b9\u2074 M",
+        "D": "5 M"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "pOH = 14 - 5 = 9. [OH\u207b] = 10\u207b\u2079 M.",
+        "whyOthersWrong": {
+          "A": "This is [H\u207a]",
+          "B": "",
+          "C": "This is Kw",
+          "D": "This is not calculated from pH"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 20,
+      "type": "numerical",
+      "question": "How many moles of HCl are needed to neutralize 0.2 moles of NaOH?",
+      "options": {
+        "A": "0.1 moles",
+        "B": "0.2 moles",
+        "C": "0.4 moles",
+        "D": "0.5 moles"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "HCl + NaOH \u2192 NaCl + H\u2082O (1:1 ratio). 0.2 moles NaOH requires 0.2 moles HCl.",
+        "whyOthersWrong": {
+          "A": "This ignores the 1:1 ratio",
+          "B": "",
+          "C": "This would be for 0.4 moles NaOH",
+          "D": "This would be for 0.5 moles NaOH"
+        }
+      },
+      "difficultyLevel": "easy"
+    },
+    {
+      "id": 21,
+      "type": "real_life_application",
+      "question": "When someone has acidity (heartburn), why is baking soda (NaHCO\u2083) used as a remedy?",
+      "options": {
+        "A": "It absorbs the acid",
+        "B": "It neutralizes excess stomach acid through a chemical reaction",
+        "C": "It increases pH of the stomach",
+        "D": "Both B and C"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "NaHCO\u2083 reacts with HCl: NaHCO\u2083 + HCl \u2192 NaCl + H\u2082O + CO\u2082, neutralizing acid (B) and increasing pH (C).",
+        "whyOthersWrong": {
+          "A": "It reacts, not just absorbs",
+          "B": "True but incomplete",
+          "C": "True but incomplete",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 22,
+      "type": "real_life_application",
+      "question": "Why is lime water (Ca(OH)\u2082) used to test for CO\u2082?",
+      "options": {
+        "A": "CO\u2082 is acidic and turns lime water red",
+        "B": "CO\u2082 reacts with Ca(OH)\u2082 to form white precipitate of CaCO\u2083",
+        "C": "CO\u2082 dissolves in lime water",
+        "D": "CO\u2082 increases the pH of lime water"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "CO\u2082 + Ca(OH)\u2082 \u2192 CaCO\u2083\u2193 + H\u2082O. The white precipitate is characteristic of CO\u2082.",
+        "whyOthersWrong": {
+          "A": "CO\u2082 doesn't turn it red",
+          "B": "",
+          "C": "CO\u2082 reacts, not just dissolves",
+          "D": "CO\u2082 decreases pH"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 23,
+      "type": "real_life_application",
+      "question": "Why do we add lime to acidic soil?",
+      "options": {
+        "A": "To increase acidity",
+        "B": "To neutralize excess acid and raise pH",
+        "C": "To add nutrients",
+        "D": "To improve water retention"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Lime (CaO or Ca(OH)\u2082) is basic and neutralizes acidic soil, raising pH to optimal levels for plant growth.",
+        "whyOthersWrong": {
+          "A": "Lime is basic, not acidic",
+          "B": "",
+          "C": "While lime adds Ca, the main purpose is pH adjustment",
+          "D": "Water retention is not the primary reason"
+        }
+      },
+      "difficultyLevel": "medium"
+    },
+    {
+      "id": 24,
+      "type": "real_life_application",
+      "question": "Why is vinegar (acetic acid) used in cooking?",
+      "options": {
+        "A": "To kill bacteria",
+        "B": "To add flavor and aid digestion",
+        "C": "To neutralize bases in food",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "Vinegar serves multiple purposes: antimicrobial (A), flavor enhancement (B), and can neutralize alkaline substances (C).",
+        "whyOthersWrong": {
+          "A": "True but incomplete",
+          "B": "True but incomplete",
+          "C": "True but incomplete",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 25,
+      "type": "real_life_application",
+      "question": "Why is soap less effective in acidic water?",
+      "options": {
+        "A": "Acid neutralizes the basic component of soap",
+        "B": "Acid increases soap's solubility",
+        "C": "Acid changes soap's color",
+        "D": "Acid increases water's pH"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Soap is a salt of a weak acid. Acidic water neutralizes it, reducing its cleaning effectiveness.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Acid decreases solubility",
+          "C": "Color change is not the issue",
+          "D": "Acid decreases pH"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 26,
+      "type": "multi_concept",
+      "question": "A solution has pH = 8. Which statements are correct?\n(I) [H\u207a] = 10\u207b\u2078 M\n(II) [OH\u207b] = 10\u207b\u2076 M\n(III) pOH = 6\n(IV) The solution is basic",
+      "options": {
+        "A": "I and IV only",
+        "B": "I, II, and III only",
+        "C": "I, II, III, and IV",
+        "D": "II, III, and IV only"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "All statements are correct: (I) pH = -log[H\u207a] = 8 \u2192 [H\u207a] = 10\u207b\u2078; (II) pOH = 6 \u2192 [OH\u207b] = 10\u207b\u2076; (III) pH + pOH = 14 \u2192 pOH = 6; (IV) pH > 7 is basic.",
+        "whyOthersWrong": {
+          "A": "II and III are also correct",
+          "B": "IV is also correct",
+          "C": "",
+          "D": "I is also correct"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 27,
+      "type": "multi_concept",
+      "question": "When HCl and NaOH react: HCl + NaOH \u2192 NaCl + H\u2082O. Which statements are correct?\n(I) This is a neutralization reaction\n(II) H\u207a and OH\u207b combine to form water\n(III) The products are always acidic\n(IV) The reaction is exothermic",
+      "options": {
+        "A": "I and II only",
+        "B": "I, II, and IV only",
+        "C": "I, II, III, and IV",
+        "D": "II and IV only"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "(I), (II), and (IV) are correct. (III) is false; NaCl is neutral. Neutralization is exothermic.",
+        "whyOthersWrong": {
+          "A": "IV is also correct",
+          "B": "",
+          "C": "III is false; NaCl is neutral",
+          "D": "I is also correct"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 28,
+      "type": "multi_concept",
+      "question": "A student tests a solution with three indicators:\n- Methyl orange: yellow\n- Methyl red: yellow\n- Phenolphthalein: colorless\n\nWhat is the approximate pH range?",
+      "options": {
+        "A": "pH < 3",
+        "B": "pH 3-4",
+        "C": "pH 4-8",
+        "D": "pH > 8"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Methyl orange (yellow: pH > 4.4), Methyl red (yellow: pH > 6.2), Phenolphthalein (colorless: pH < 8.2). Overlap is pH 6.2-8.2.",
+        "whyOthersWrong": {
+          "A": "Would show color in methyl orange",
+          "B": "Would show color in methyl red",
+          "C": "",
+          "D": "Would show pink in phenolphthalein"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 29,
+      "type": "multi_concept",
+      "question": "In titration of 25 mL of HCl with 0.1 M NaOH, 50 mL of NaOH is used. What is the molarity of HCl?",
+      "options": {
+        "A": "0.1 M",
+        "B": "0.2 M",
+        "C": "0.05 M",
+        "D": "0.4 M"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "M\u2081V\u2081 = M\u2082V\u2082 (for 1:1 ratio). 0.1 \u00d7 50 = M\u2081 \u00d7 25. M\u2081 = 0.2 M.",
+        "whyOthersWrong": {
+          "A": "This ignores the volume difference",
+          "B": "",
+          "C": "This reverses the calculation",
+          "D": "This is incorrect calculation"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 30,
+      "type": "multi_concept",
+      "question": "Which salt would produce an acidic solution, and why?",
+      "options": {
+        "A": "NaCl: from strong acid and strong base",
+        "B": "NH\u2084Cl: from weak base and strong acid",
+        "C": "Na\u2082CO\u2083: from weak acid and strong base",
+        "D": "KNO\u2083: from strong acid and strong base"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "NH\u2084Cl is acidic because NH\u2084\u207a (conjugate acid of weak base NH\u2083) hydrolyzes: NH\u2084\u207a + H\u2082O \u21cc NH\u2083 + H\u2083O\u207a.",
+        "whyOthersWrong": {
+          "A": "Neutral",
+          "B": "",
+          "C": "Basic",
+          "D": "Neutral"
+        }
+      },
+      "difficultyLevel": "hard"
+    },
+    {
+      "id": 31,
+      "type": "ultra_hard",
+      "question": "In the titration of 25 mL of H\u2082SO\u2084 with 0.1 M NaOH, 50 mL of NaOH is required. What is the molarity of H\u2082SO\u2084?",
+      "options": {
+        "A": "0.1 M",
+        "B": "0.2 M",
+        "C": "0.05 M",
+        "D": "0.4 M"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "M\u2081V\u2081 = M\u2082V\u2082 for 1:2 ratio. 0.1 \u00d7 50 = M\u2081 \u00d7 25 \u00d7 2. Wait, H\u2082SO\u2084 + 2NaOH, so M\u2081 \u00d7 25 \u00d7 2 = 0.1 \u00d7 50. M\u2081 = 5/50 = 0.1 M.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "This would be for 25 mL NaOH",
+          "C": "This would be for 12.5 mL NaOH",
+          "D": "This would be for 100 mL NaOH"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "Which salt undergoes hydrolysis to give an acidic solution?",
+      "options": {
+        "A": "NaCl",
+        "B": "NH\u2084Cl",
+        "C": "Na\u2082CO\u2083",
+        "D": "KNO\u2083"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "NH\u2084Cl is from weak base (NH\u2083) and strong acid (HCl). NH\u2084\u207a hydrolyzes: NH\u2084\u207a + H\u2082O \u21cc NH\u2083 + H\u2083O\u207a, making the solution acidic.",
+        "whyOthersWrong": {
+          "A": "From strong acid and strong base - neutral",
+          "B": "",
+          "C": "From weak acid and strong base - basic",
+          "D": "From strong acid and strong base - neutral"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "If pH = 3, what is the pOH of the solution?",
+      "options": {
+        "A": "3",
+        "B": "11",
+        "C": "7",
+        "D": "14"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "pH + pOH = 14. If pH = 3, then pOH = 14 - 3 = 11.",
+        "whyOthersWrong": {
+          "A": "This is pH",
+          "B": "",
+          "C": "This is neutral",
+          "D": "This is the sum"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Which indicator is suitable for titrating a weak acid with a strong base?",
+      "options": {
+        "A": "Methyl orange",
+        "B": "Methyl red",
+        "C": "Phenolphthalein",
+        "D": "Litmus paper"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Weak acid-strong base titrations have equivalence point at pH > 7. Phenolphthalein (pH 8.2-10) is suitable.",
+        "whyOthersWrong": {
+          "A": "pH range too low",
+          "B": "pH range too low",
+          "C": "",
+          "D": "Not specific enough"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "What is the [H\u207a] concentration in a solution with pH = 5?",
+      "options": {
+        "A": "10\u207b\u2075 M",
+        "B": "10\u207b\u2079 M",
+        "C": "5 M",
+        "D": "0.00001 M"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "pH = -log[H\u207a]. 5 = -log[H\u207a], so [H\u207a] = 10\u207b\u2075 M = 0.00001 M.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "This is for pH 9",
+          "C": "This is not calculated from pH",
+          "D": "This is the same as A"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Which statement about strong acids is correct?",
+      "options": {
+        "A": "They partially ionize in water",
+        "B": "They completely ionize in water",
+        "C": "They don't conduct electricity",
+        "D": "They have high pH"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Strong acids completely dissociate into ions in aqueous solution.",
+        "whyOthersWrong": {
+          "A": "This is weak acids",
+          "B": "",
+          "C": "Strong acids conduct electricity well",
+          "D": "Strong acids have low pH"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "What is the pH of a neutral solution at 25\u00b0C?",
+      "options": {
+        "A": "0",
+        "B": "7",
+        "C": "14",
+        "D": "7-14"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "At 25\u00b0C, neutral solution has [H\u207a] = [OH\u207b] = 10\u207b\u2077 M, so pH = 7.",
+        "whyOthersWrong": {
+          "A": "This is very acidic",
+          "B": "",
+          "C": "This is very basic",
+          "D": "This is a range"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "Which salt solution is basic?",
+      "options": {
+        "A": "NaCl",
+        "B": "Na\u2082CO\u2083",
+        "C": "NH\u2084Cl",
+        "D": "FeCl\u2083"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Na\u2082CO\u2083 is from weak acid (H\u2082CO\u2083) and strong base (NaOH). CO\u2083\u00b2\u207b hydrolyzes to make solution basic.",
+        "whyOthersWrong": {
+          "A": "Neutral",
+          "B": "",
+          "C": "Acidic",
+          "D": "Acidic"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "In the reaction: HCl + NaOH \u2192 NaCl + H\u2082O, what is the role of water?",
+      "options": {
+        "A": "Reactant",
+        "B": "Product",
+        "C": "Catalyst",
+        "D": "Solvent"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Water is formed as a product when H\u207a and OH\u207b combine.",
+        "whyOthersWrong": {
+          "A": "Water is not consumed",
+          "B": "",
+          "C": "Water is not a catalyst",
+          "D": "Water is also a solvent but primarily a product"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "What is the [OH\u207b] concentration in a solution with pOH = 4?",
+      "options": {
+        "A": "10\u207b\u2074 M",
+        "B": "10\u207b\u00b9\u2070 M",
+        "C": "4 M",
+        "D": "0.0001 M"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "pOH = -log[OH\u207b]. 4 = -log[OH\u207b], so [OH\u207b] = 10\u207b\u2074 M = 0.0001 M.",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "This is for pOH 10",
+          "C": "This is not calculated",
+          "D": "This is the same as A"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "Which acid is a weak acid?",
+      "options": {
+        "A": "HCl",
+        "B": "H\u2082SO\u2084",
+        "C": "CH\u2083COOH",
+        "D": "HNO\u2083"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "CH\u2083COOH (acetic acid) partially ionizes, making it a weak acid.",
+        "whyOthersWrong": {
+          "A": "Strong acid",
+          "B": "Strong acid",
+          "C": "",
+          "D": "Strong acid"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "What is the pH of a 0.01 M HCl solution?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "[H\u207a] = 0.01 M = 10\u207b\u00b2 M. pH = -log(10\u207b\u00b2) = 2.",
+        "whyOthersWrong": {
+          "A": "This is for 0.1 M HCl",
+          "B": "",
+          "C": "This is for 0.001 M HCl",
+          "D": "This is for 0.0001 M HCl"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "Which of the following is a tribasic acid?",
+      "options": {
+        "A": "HCl",
+        "B": "H\u2082SO\u2084",
+        "C": "H\u2083PO\u2084",
+        "D": "HNO\u2083"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "H\u2083PO\u2084 has three ionizable hydrogen atoms, making it tribasic.",
+        "whyOthersWrong": {
+          "A": "Monobasic",
+          "B": "Dibasic",
+          "C": "",
+          "D": "Monobasic"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "What is the pH of a 0.1 M NaOH solution?",
+      "options": {
+        "A": "1",
+        "B": "13",
+        "C": "7",
+        "D": "14"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "[OH\u207b] = 0.1 M = 10\u207b\u00b9 M. pOH = 1. pH = 14 - 1 = 13.",
+        "whyOthersWrong": {
+          "A": "This is for 0.1 M HCl",
+          "B": "",
+          "C": "This is neutral",
+          "D": "This is for 1 M NaOH"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "Which salt is formed from a strong acid and a weak base?",
+      "options": {
+        "A": "NaCl",
+        "B": "NH\u2084Cl",
+        "C": "Na\u2082CO\u2083",
+        "D": "KNO\u2083"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "NH\u2084Cl is from HCl (strong acid) and NH\u2083 (weak base).",
+        "whyOthersWrong": {
+          "A": "From strong acid and strong base",
+          "B": "",
+          "C": "From weak acid and strong base",
+          "D": "From strong acid and strong base"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "What is the relationship between pH and [H\u207a]?",
+      "options": {
+        "A": "pH = [H\u207a]",
+        "B": "pH = -log[H\u207a]",
+        "C": "pH = log[H\u207a]",
+        "D": "pH = 1/[H\u207a]"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "pH is defined as -log[H\u207a].",
+        "whyOthersWrong": {
+          "A": "Not equal",
+          "B": "",
+          "C": "Missing negative sign",
+          "D": "Not the correct relationship"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "Which indicator would turn red in an acidic solution?",
+      "options": {
+        "A": "Methyl orange",
+        "B": "Phenolphthalein",
+        "C": "Methyl red",
+        "D": "Both A and C"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "Both methyl orange and methyl red turn red in acidic solutions.",
+        "whyOthersWrong": {
+          "A": "True but incomplete",
+          "B": "Turns colorless in acid",
+          "C": "True but incomplete",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "In a basic solution, which is true?",
+      "options": {
+        "A": "[H\u207a] > [OH\u207b]",
+        "B": "[H\u207a] = [OH\u207b]",
+        "C": "[H\u207a] < [OH\u207b]",
+        "D": "[H\u207a] = 0"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "In a basic solution, [OH\u207b] > [H\u207a], so [H\u207a] < [OH\u207b].",
+        "whyOthersWrong": {
+          "A": "This is acidic",
+          "B": "This is neutral",
+          "C": "",
+          "D": "[H\u207a] is never zero"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "What is the pH of pure water at 25\u00b0C?",
+      "options": {
+        "A": "0",
+        "B": "7",
+        "C": "14",
+        "D": "Undefined"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Pure water at 25\u00b0C has [H\u207a] = [OH\u207b] = 10\u207b\u2077 M, so pH = 7.",
+        "whyOthersWrong": {
+          "A": "Very acidic",
+          "B": "",
+          "C": "Very basic",
+          "D": "pH is defined for water"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Which statement about buffer solutions is correct?",
+      "options": {
+        "A": "They resist changes in pH",
+        "B": "They contain a weak acid and its salt",
+        "C": "They contain a weak base and its salt",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "All statements are correct about buffer solutions.",
+        "whyOthersWrong": {
+          "A": "True",
+          "B": "True",
+          "C": "True",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    }
+  ]
+}

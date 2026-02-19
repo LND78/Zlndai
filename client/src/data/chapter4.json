@@ -1,0 +1,1105 @@
+{
+  "chapterName": "Carbon and its Compounds",
+  "questions": [
+    {
+      "id": 1,
+      "type": "conceptual_trap",
+      "question": "Q1",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "W",
+          "C": "W",
+          "D": "W"
+        }
+      },
+      "difficultyLevel": "easy"
+    },
+    {
+      "id": 31,
+      "type": "ultra_hard",
+      "question": "What is the hybridization of carbon in ethene (C\u2082H\u2084)?",
+      "options": {
+        "A": "sp",
+        "B": "sp\u00b2",
+        "C": "sp\u00b3",
+        "D": "sp\u00b3d"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "C in C=C is sp\u00b2 hybridized with 3 sigma bonds",
+        "whyOthersWrong": {
+          "A": "sp is linear",
+          "B": "",
+          "C": "sp\u00b3 is tetrahedral",
+          "D": "sp\u00b3d is not for C"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "Which is a saturated hydrocarbon?",
+      "options": {
+        "A": "C\u2082H\u2084",
+        "B": "C\u2082H\u2082",
+        "C": "C\u2082H\u2086",
+        "D": "C\u2086H\u2086"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "C\u2082H\u2086 (ethane) has only single bonds",
+        "whyOthersWrong": {
+          "A": "C=C double bond",
+          "B": "C\u2261C triple bond",
+          "C": "",
+          "D": "Benzene has double bonds"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "What is the IUPAC name of CH\u2083-CH\u2082-CH\u2083?",
+      "options": {
+        "A": "Propane",
+        "B": "Propene",
+        "C": "Propyne",
+        "D": "Propanol"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "3 carbons with single bonds = propane",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Has C=C",
+          "C": "Has C\u2261C",
+          "D": "Has OH"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Which compound shows isomerism?",
+      "options": {
+        "A": "CH\u2084",
+        "B": "C\u2082H\u2086",
+        "C": "C\u2084H\u2081\u2080",
+        "D": "C\u2083H\u2088"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "C\u2084H\u2081\u2080 has structural isomers: butane and isobutane",
+        "whyOthersWrong": {
+          "A": "Too simple",
+          "B": "Too simple",
+          "C": "",
+          "D": "No isomers"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "What is the product of combustion of ethane?",
+      "options": {
+        "A": "CO + H\u2082O",
+        "B": "CO\u2082 + H\u2082O",
+        "C": "C + H\u2082",
+        "D": "CO\u2082 + H\u2082"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "C\u2082H\u2086 + 3.5O\u2082 \u2192 2CO\u2082 + 3H\u2082O",
+        "whyOthersWrong": {
+          "A": "Incomplete combustion",
+          "B": "",
+          "C": "Not combustion",
+          "D": "Not correct"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Which functional group is present in alcohols?",
+      "options": {
+        "A": "-CHO",
+        "B": "-OH",
+        "C": "-COOH",
+        "D": "-NH\u2082"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "-OH is the hydroxyl group in alcohols",
+        "whyOthersWrong": {
+          "A": "Aldehyde",
+          "B": "",
+          "C": "Carboxylic acid",
+          "D": "Amine"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "What is the molecular formula of benzene?",
+      "options": {
+        "A": "C\u2085H\u2081\u2080",
+        "B": "C\u2086H\u2086",
+        "C": "C\u2087H\u2088",
+        "D": "C\u2088H\u2081\u2080"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Benzene has 6 carbons and 6 hydrogens",
+        "whyOthersWrong": {
+          "A": "Wrong formula",
+          "B": "",
+          "C": "Toluene",
+          "D": "Xylene"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "Which is an unsaturated hydrocarbon?",
+      "options": {
+        "A": "Ethane",
+        "B": "Propane",
+        "C": "Ethene",
+        "D": "Butane"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Ethene (C\u2082H\u2084) has C=C double bond",
+        "whyOthersWrong": {
+          "A": "Saturated",
+          "B": "Saturated",
+          "C": "",
+          "D": "Saturated"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "What is the general formula for alkanes?",
+      "options": {
+        "A": "C\u2099H\u2082\u2099",
+        "B": "C\u2099H\u2082\u2099\u208a\u2082",
+        "C": "C\u2099H\u2082\u2099\u208b\u2082",
+        "D": "C\u2099H\u2099"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Alkanes have formula C\u2099H\u2082\u2099\u208a\u2082",
+        "whyOthersWrong": {
+          "A": "Alkynes",
+          "B": "",
+          "C": "Alkynes",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "Which compound is an ester?",
+      "options": {
+        "A": "CH\u2083COOH",
+        "B": "CH\u2083CH\u2082OH",
+        "C": "CH\u2083COOCH\u2083",
+        "D": "CH\u2083CHO"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "CH\u2083COOCH\u2083 is methyl acetate (ester)",
+        "whyOthersWrong": {
+          "A": "Carboxylic acid",
+          "B": "Alcohol",
+          "C": "",
+          "D": "Aldehyde"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "What is the product of esterification?",
+      "options": {
+        "A": "Ester + water",
+        "B": "Alcohol + CO\u2082",
+        "C": "Aldehyde + water",
+        "D": "Ketone + alcohol"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "R-COOH + R'-OH \u2192 R-COO-R' + H\u2082O",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Not esterification",
+          "C": "Not esterification",
+          "D": "Not esterification"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "Which is a characteristic of carbon?",
+      "options": {
+        "A": "Forms only ionic bonds",
+        "B": "Forms covalent bonds",
+        "C": "Has 4 valence electrons",
+        "D": "Both B and C"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "C forms covalent bonds and has 4 valence electrons",
+        "whyOthersWrong": {
+          "A": "C forms covalent bonds",
+          "B": "True",
+          "C": "True",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "What is the functional group in carboxylic acids?",
+      "options": {
+        "A": "-OH",
+        "B": "-CHO",
+        "C": "-COOH",
+        "D": "-NH\u2082"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "-COOH is the carboxyl group",
+        "whyOthersWrong": {
+          "A": "Hydroxyl",
+          "B": "Aldehyde",
+          "C": "",
+          "D": "Amino"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "Which compound has the highest boiling point?",
+      "options": {
+        "A": "CH\u2084",
+        "B": "C\u2082H\u2086",
+        "C": "C\u2083H\u2088",
+        "D": "C\u2084H\u2081\u2080"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "Higher molar mass = stronger intermolecular forces = higher BP",
+        "whyOthersWrong": {
+          "A": "Lowest BP",
+          "B": "Lower BP",
+          "C": "Lower BP",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "What is the product of addition reaction of ethene with H\u2082?",
+      "options": {
+        "A": "Ethane",
+        "B": "Ethanol",
+        "C": "Acetaldehyde",
+        "D": "Acetic acid"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "C\u2082H\u2084 + H\u2082 \u2192 C\u2082H\u2086 (hydrogenation)",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Needs O",
+          "C": "Needs O",
+          "D": "Needs O"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "Which is a polymer?",
+      "options": {
+        "A": "Ethane",
+        "B": "Polyethene",
+        "C": "Benzene",
+        "D": "Methane"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Polyethene is a polymer of ethene",
+        "whyOthersWrong": {
+          "A": "Monomer",
+          "B": "",
+          "C": "Not a polymer",
+          "D": "Monomer"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "What is the general formula for alkenes?",
+      "options": {
+        "A": "C\u2099H\u2082\u2099\u208a\u2082",
+        "B": "C\u2099H\u2082\u2099",
+        "C": "C\u2099H\u2082\u2099\u208b\u2082",
+        "D": "C\u2099H\u2099"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Alkenes have C=C, formula C\u2099H\u2082\u2099",
+        "whyOthersWrong": {
+          "A": "Alkanes",
+          "B": "",
+          "C": "Alkynes",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "Which compound is aromatic?",
+      "options": {
+        "A": "Ethane",
+        "B": "Ethene",
+        "C": "Benzene",
+        "D": "Propane"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Benzene is aromatic with delocalized electrons",
+        "whyOthersWrong": {
+          "A": "Aliphatic",
+          "B": "Aliphatic",
+          "C": "",
+          "D": "Aliphatic"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "What is the oxidation state of C in CO\u2082?",
+      "options": {
+        "A": "+2",
+        "B": "+4",
+        "C": "+6",
+        "D": "+8"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "C + 2(-2) = 0, so C = +4",
+        "whyOthersWrong": {
+          "A": "Not +2",
+          "B": "",
+          "C": "Not +6",
+          "D": "Not +8"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Which functional group is present in aldehydes?",
+      "options": {
+        "A": "-OH",
+        "B": "-CHO",
+        "C": "-COOH",
+        "D": "-CO-"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "-CHO is the aldehyde group",
+        "whyOthersWrong": {
+          "A": "Hydroxyl",
+          "B": "",
+          "C": "Carboxyl",
+          "D": "Ketone"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 22,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 22",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 23,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 23",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 24,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 24",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 25,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 25",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 26,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 26",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 27,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 27",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 28,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 28",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 29,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 29",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 30,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 30",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 31,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 31",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 32",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 33",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 34",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 35",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 36",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 37",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 38",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 39",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 40",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 41",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 42",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 43",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 44",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 45",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 46",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 47",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 48",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 49",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 50",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    }
+  ]
+}
