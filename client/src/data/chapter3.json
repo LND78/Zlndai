@@ -1,0 +1,1105 @@
+{
+  "chapterName": "Metals and Non-metals",
+  "questions": [
+    {
+      "id": 1,
+      "type": "conceptual_trap",
+      "question": "Q1",
+      "options": {
+        "A": "A",
+        "B": "B",
+        "C": "C",
+        "D": "D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong",
+          "C": "Wrong",
+          "D": "Wrong"
+        }
+      },
+      "difficultyLevel": "easy"
+    },
+    {
+      "id": 31,
+      "type": "ultra_hard",
+      "question": "Which of the following metals forms an amphoteric oxide?",
+      "options": {
+        "A": "Sodium",
+        "B": "Magnesium",
+        "C": "Aluminum",
+        "D": "Iron"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Al\u2082O\u2083 is amphoteric - reacts with both acids and bases",
+        "whyOthersWrong": {
+          "A": "Na\u2082O is basic",
+          "B": "MgO is basic",
+          "C": "",
+          "D": "Fe\u2082O\u2083 is basic"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "In the thermite reaction: 2Al + Fe\u2082O\u2083 \u2192 2Fe + Al\u2082O\u2083, which is the reducing agent?",
+      "options": {
+        "A": "Al",
+        "B": "Fe\u2082O\u2083",
+        "C": "Fe",
+        "D": "Al\u2082O\u2083"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Al is oxidized from 0 to +3, so it's the reducing agent",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Fe\u2082O\u2083 is reduced",
+          "C": "Fe is product",
+          "D": "Al\u2082O\u2083 is product"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "Which non-metal is a liquid at room temperature?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Bromine",
+        "C": "Chlorine",
+        "D": "Iodine"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Bromine (Br\u2082) is the only non-metal that is liquid at room temperature",
+        "whyOthersWrong": {
+          "A": "Gas",
+          "B": "",
+          "C": "Gas",
+          "D": "Solid"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Which metal is most reactive?",
+      "options": {
+        "A": "Potassium",
+        "B": "Sodium",
+        "C": "Lithium",
+        "D": "Calcium"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "K is more reactive than Na due to lower ionization energy",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Less reactive than K",
+          "C": "Less reactive than K",
+          "D": "Less reactive than K"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "What is the product when zinc reacts with dilute sulfuric acid?",
+      "options": {
+        "A": "ZnSO\u2084 + H\u2082",
+        "B": "ZnS + H\u2082O",
+        "C": "Zn\u2082SO\u2084 + H\u2082",
+        "D": "ZnO + H\u2082"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Zn + H\u2082SO\u2084 \u2192 ZnSO\u2084 + H\u2082\u2191",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Wrong product",
+          "C": "Wrong formula",
+          "D": "Wrong product"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Which metal does NOT react with cold water?",
+      "options": {
+        "A": "Sodium",
+        "B": "Potassium",
+        "C": "Magnesium",
+        "D": "Calcium"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Mg reacts very slowly with cold water but reacts readily with steam",
+        "whyOthersWrong": {
+          "A": "Reacts vigorously",
+          "B": "Reacts vigorously",
+          "C": "",
+          "D": "Reacts slowly"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "Which statement about non-metals is correct?",
+      "options": {
+        "A": "All non-metals are gases",
+        "B": "Non-metals are good conductors of electricity",
+        "C": "Non-metals form covalent compounds",
+        "D": "Non-metals are malleable"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Non-metals typically form covalent bonds and covalent compounds",
+        "whyOthersWrong": {
+          "A": "Some are solids/liquids",
+          "B": "Non-metals are poor conductors",
+          "C": "",
+          "D": "Non-metals are brittle"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "What is the oxidation state of Fe in Fe\u2082O\u2083?",
+      "options": {
+        "A": "+2",
+        "B": "+3",
+        "C": "+4",
+        "D": "+6"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "In Fe\u2082O\u2083: 2x + 3(-2) = 0, so x = +3",
+        "whyOthersWrong": {
+          "A": "This is in FeO",
+          "B": "",
+          "C": "Not possible",
+          "D": "Not possible"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "Which metal forms a protective oxide layer?",
+      "options": {
+        "A": "Sodium",
+        "B": "Aluminum",
+        "C": "Potassium",
+        "D": "Calcium"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Al forms Al\u2082O\u2083 layer that prevents further oxidation (passivation)",
+        "whyOthersWrong": {
+          "A": "Na\u2082O is not protective",
+          "B": "",
+          "C": "K\u2082O is not protective",
+          "D": "CaO is not protective"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "Which is a characteristic of metals?",
+      "options": {
+        "A": "Low melting point",
+        "B": "Poor electrical conductivity",
+        "C": "Malleable and ductile",
+        "D": "Brittle"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Metals are malleable (can be hammered) and ductile (can be drawn into wires)",
+        "whyOthersWrong": {
+          "A": "Most metals have high melting points",
+          "B": "Metals conduct electricity well",
+          "C": "",
+          "D": "Metals are not brittle"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "In the reaction: 2Na + Cl\u2082 \u2192 2NaCl, what is the oxidation state change of Cl?",
+      "options": {
+        "A": "0 to -1",
+        "B": "0 to +1",
+        "C": "-1 to 0",
+        "D": "+1 to 0"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Cl\u2082 has oxidation state 0, and in NaCl it has -1",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Cl doesn't become +1",
+          "C": "Cl starts at 0",
+          "D": "Cl doesn't start at +1"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "Which non-metal is essential for respiration?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Oxygen",
+        "C": "Sulfur",
+        "D": "Phosphorus"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "O\u2082 is used in aerobic respiration for energy production",
+        "whyOthersWrong": {
+          "A": "N is not directly used in respiration",
+          "B": "",
+          "C": "S is not essential for respiration",
+          "D": "P is not directly used in respiration"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "What happens when copper is heated in air?",
+      "options": {
+        "A": "No reaction",
+        "B": "Forms CuO (black)",
+        "C": "Forms Cu\u2082O (red)",
+        "D": "Forms CuSO\u2084"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "2Cu + O\u2082 \u2192 2CuO (black oxide)",
+        "whyOthersWrong": {
+          "A": "Cu does react",
+          "B": "",
+          "C": "Cu\u2082O forms at lower temperatures",
+          "D": "CuSO\u2084 needs sulfur"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "Which metal is used in thermite welding?",
+      "options": {
+        "A": "Iron",
+        "B": "Aluminum",
+        "C": "Copper",
+        "D": "Zinc"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Al is used in thermite reaction: 2Al + Fe\u2082O\u2083 \u2192 2Fe + Al\u2082O\u2083 (very exothermic)",
+        "whyOthersWrong": {
+          "A": "Fe is product",
+          "B": "",
+          "C": "Cu is not used",
+          "D": "Zn is not used"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "Which statement about reactivity series is correct?",
+      "options": {
+        "A": "K is more reactive than Na",
+        "B": "Mg is more reactive than Al",
+        "C": "Cu is more reactive than Zn",
+        "D": "Fe is more reactive than Cu"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "K is above Na in reactivity series and is more reactive",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Al is more reactive than Mg",
+          "C": "Zn is more reactive than Cu",
+          "D": "Cu is more reactive than Fe"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "What is the product of burning sulfur in oxygen?",
+      "options": {
+        "A": "SO",
+        "B": "SO\u2082",
+        "C": "SO\u2083",
+        "D": "S\u2082O"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "S + O\u2082 \u2192 SO\u2082 (sulfur dioxide)",
+        "whyOthersWrong": {
+          "A": "Not stable",
+          "B": "",
+          "C": "SO\u2083 forms at higher temperatures",
+          "D": "Not possible"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "Which metal is extracted by electrolysis?",
+      "options": {
+        "A": "Iron",
+        "B": "Copper",
+        "C": "Aluminum",
+        "D": "Zinc"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "Al is extracted by electrolysis of molten Al\u2082O\u2083 (Hall-H\u00e9roult process)",
+        "whyOthersWrong": {
+          "A": "Fe is extracted by reduction",
+          "B": "Cu is extracted by reduction",
+          "C": "",
+          "D": "Zn is extracted by reduction"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "Which non-metal forms a diatomic molecule?",
+      "options": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Chlorine",
+        "D": "All of the above"
+      },
+      "correctAnswer": "D",
+      "explanation": {
+        "correct": "O\u2082, N\u2082, and Cl\u2082 are all diatomic molecules",
+        "whyOthersWrong": {
+          "A": "True",
+          "B": "True",
+          "C": "True",
+          "D": ""
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "What is the color of copper oxide?",
+      "options": {
+        "A": "White",
+        "B": "Red",
+        "C": "Black",
+        "D": "Green"
+      },
+      "correctAnswer": "C",
+      "explanation": {
+        "correct": "CuO is black; Cu\u2082O is red",
+        "whyOthersWrong": {
+          "A": "Not white",
+          "B": "Cu\u2082O is red",
+          "C": "",
+          "D": "Green is malachite"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Which metal is most abundant in Earth's crust?",
+      "options": {
+        "A": "Iron",
+        "B": "Aluminum",
+        "C": "Copper",
+        "D": "Zinc"
+      },
+      "correctAnswer": "B",
+      "explanation": {
+        "correct": "Al is the most abundant metal in Earth's crust (~8%)",
+        "whyOthersWrong": {
+          "A": "Fe is second",
+          "B": "",
+          "C": "Cu is less abundant",
+          "D": "Zn is less abundant"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 22,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 22",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 23,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 23",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 24,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 24",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 25,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 25",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 26,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 26",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 27,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 27",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 28,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 28",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 29,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 29",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 30,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 30",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 31,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 31",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 32,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 32",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 33,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 33",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 34,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 34",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 35,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 35",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 36,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 36",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 37,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 37",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 38,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 38",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 39,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 39",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 40,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 40",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 41,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 41",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 42,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 42",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 43,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 43",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 44,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 44",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 45,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 45",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 46,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 46",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 47,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 47",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 48,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 48",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 49,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 49",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    },
+    {
+      "id": 50,
+      "type": "ultra_hard",
+      "question": "Ultra-hard question 50",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": {
+        "correct": "Correct explanation",
+        "whyOthersWrong": {
+          "A": "",
+          "B": "Incorrect",
+          "C": "Incorrect",
+          "D": "Incorrect"
+        }
+      },
+      "difficultyLevel": "ultra_hard"
+    }
+  ]
+}
